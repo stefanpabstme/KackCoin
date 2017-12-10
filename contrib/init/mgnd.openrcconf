@@ -1,0 +1,26 @@
+# /etc/conf.d/mgnd: config file for /etc/init.d/mgnd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/mgn/mgn.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/mgnd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/mgnd.pid"
+
+# Where to write mgnd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/mgnd"
+
+# User and group to own mgnd process
+#BITCOIND_USER="mgn"
+#BITCOIND_GROUP="mgn"
+
+# Path to mgnd executable
+#BITCOIND_BIN="/usr/bin/mgnd"
+
+# Nice value to run mgnd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

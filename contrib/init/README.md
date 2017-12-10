@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: pivxd.service
-Upstart: pivxd.conf
-OpenRC:  pivxd.openrc
-         pivxd.openrcconf
-CentOS:  pivxd.init
+SystemD: mgnd.service
+Upstart: mgnd.conf
+OpenRC:  mgnd.openrc
+         mgnd.openrcconf
+CentOS:  mgnd.init
 
 have been made available to assist packagers in creating node packages here.
 

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=MagnaCoin
+Comment=MagnaCoin P2P Cryptocurrency
+Comment[fr]=MagnaCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=MagnaCoin, eşten eşe kriptografik sanal para birimi
+Exec=mgn-qt %u
+Terminal=false
+Type=Application
+Icon=mgn128
+MimeType=x-scheme-handler/mgn;
+Categories=Office;Finance;

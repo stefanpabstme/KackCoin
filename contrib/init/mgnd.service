@@ -1,0 +1,26 @@
+[Unit]
+Description=MGN's distributed currency daemon
+After=network.target
+
+[Service]
+User=mgn
+Group=mgn
+
+Type=forking
+PIDFile=/var/lib/mgnd/mgnd.pid
+
+ExecStart=/usr/bin/mgnd -daemon -pid=/var/lib/mgnd/mgnd.pid \
+          -conf=/etc/mgn/mgn.conf -datadir=/var/lib/mgnd
+
+ExecStop=-/usr/bin/mgn-cli -conf=/etc/mgn/mgn.conf \
+         -datadir=/var/lib/mgnd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
