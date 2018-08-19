@@ -94,7 +94,7 @@ public:
         pchMessageStart[1] = 0xb3;
         pchMessageStart[2] = 0x94;
         pchMessageStart[3] = 0xb5;
-        vAlertPubKey = ParseHex("0000898d3ba6ba6e7423fa5cbd6a89e0a9a5300f88d33000005cb1a8b7ed2c1000335fc8dc4f012cb8241cc0bdafd6ca70c5f5448916e4e6f511ffffffffffffff");
+        vAlertPubKey = ParseHex("04fef34fc7a0fa8066f0b66778cbc5e6f0a227cdc9d9010f848cadc06c5ddf8b86aa8b5aa2301a7cbcc2e90fdd262f1cac1ae7819a1287765ccb7fbde6aaf15872");
         nDefaultPort = 57821;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // KackCoin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
@@ -199,7 +199,7 @@ public:
         pchMessageStart[1] = 0x64;
         pchMessageStart[2] = 0x75;
         pchMessageStart[3] = 0x86;
-        vAlertPubKey = ParseHex("000010e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce121ba32607d573b8810c02c0582aed05b4deb9c4b77b26d92428c61256cd42774babea0a073b2ed0c9");
+        vAlertPubKey = ParseHex("04fae98a9a125122bc700ff4bf3b509ec8f0c64b256335a77e73093508aa0dec21034675a91e48a7f4b287fa8e41f214f1f86ec42b152799637a3476964941335b");
         nDefaultPort = 57822;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
