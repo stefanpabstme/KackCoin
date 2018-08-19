@@ -1,9 +1,9 @@
-MagnaCoin Core
+KackCoin Core
 =====================
 
 Setup
 ---------------------
-[MagnaCoin Core](http://magnacoin.org/wallet) is the original MGN client and it builds the backbone of the network. However, it downloads and stores the entire history of MGN transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[KackCoin Core](http://stefanpabst.me/wallet) is the original MGN client and it builds the backbone of the network. However, it downloads and stores the entire history of MGN transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -28,8 +28,8 @@ Drag mgn-qt to your applications folder, and then run mgn-qt.
 
 * See the documentation at the [MGN Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [MGN Forum](http://forum.magnacoin.org/).
-* Join one of our Slack groups [MGN Slack Groups](https://magnacoin.org/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [MGN Forum](http://forum.stefanpabst.me/).
+* Join one of our Slack groups [MGN Slack Groups](https://stefanpabst.me/slack-logins/).
 
 Building
 ---------------------
@@ -41,7 +41,7 @@ The following are developer notes on how to build MGN on your native platform. T
 
 Development
 ---------------------
-The MagnaCoin repo's [root README](https://github.com/stefanpabstme/KackCoin/blob/master/README.md) contains relevant information on the development process and automated testing.
+The KackCoin repo's [root README](https://github.com/stefanpabstme/KackCoin/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,7 +55,7 @@ The MagnaCoin repo's [root README](https://github.com/stefanpabstme/KackCoin/blo
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [MGN](http://forum.magnacoin.org/) forum.
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [MGN](http://forum.stefanpabst.me/) forum.
 * Join the [MGN-Dev](https://mgn-dev.slack.com/) Slack group ([Sign-Up](https://mgn-dev.herokuapp.com/)).
 
 ### Miscellaneous

@@ -62,11 +62,11 @@
         <translation>받는 주소</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>이 주소들은 전송할 MGN 주소입니다. 송금하기 전 항상 금액과 전송할 주소를 확인해주세요.</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>이 주소들은 전송 받을 MGN 주소입니다. 각 트랜잭션별로 새로운 입금 주소를 사용하는 것이 좋습니다.</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
         <translation>&amp;BIP 38 암호화</translation>
     </message>
     <message>
-        <source>Enter a MagnaCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>BIP 38을 사용하여 암호화 할 MGN 주소를 입력하십시오. 중간 입력창에 암호를 입력하십시오. 암호화를 누르면 암호화된 개인 키가 계산됩니다.</translation>
     </message>
     <message>
@@ -247,7 +247,7 @@
         <translation>주소:</translation>
     </message>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>메세지를 서명하기 위한 MGN 주소</translation>
     </message>
     <message>
@@ -279,7 +279,7 @@
         <translation>현재 서명을 시스템 클립 보드에 복사</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>이 MGN 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
     </message>
     <message>
@@ -303,11 +303,11 @@
         <translation>BIP 38 암호화 된 개인 키를 입력하십시오. 중간 입력창에 암호를 입력하십시오. 키를 암호해제 후 '주소 가져오기'를 클릭하면 개인 키가 지갑에 추가됩니다.</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
+        <source>The KackCoin address the message was signed with</source>
         <translation>메세지에 서명된 MGN 주소</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MagnaCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
         <translation>메세지가 지정된 MGN 주소로 서명되었는지 확인해주세요</translation>
     </message>
     <message>
@@ -602,11 +602,11 @@
         <translation>탭 도구 모음</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a MagnaCoin address</source>
+        <source>Send coins to a KackCoin address</source>
         <translation>MGN 주소로 전송하기</translation>
     </message>
     <message>
@@ -622,23 +622,23 @@
         <translation>마스터노드 검색</translation>
     </message>
     <message>
-        <source>&amp;About MagnaCoin Core</source>
-        <translation>MagnaCoin Core &amp;정보</translation>
+        <source>&amp;About KackCoin Core</source>
+        <translation>KackCoin Core &amp;정보</translation>
     </message>
     <message>
-        <source>Show information about MagnaCoin Core</source>
-        <translation>MagnaCoin Core에 대한 정보 표시</translation>
+        <source>Show information about KackCoin Core</source>
+        <translation>KackCoin Core에 대한 정보 표시</translation>
     </message>
     <message>
         <source>Modify configuration options for MGN</source>
         <translation>MGN에 대한 구성 옵션 수정</translation>
     </message>
     <message>
-        <source>Sign messages with your MagnaCoin addresses to prove you own them</source>
+        <source>Sign messages with your KackCoin addresses to prove you own them</source>
         <translation>MGN 주소로 메시지에 서명하여 소유하고 있음을 증명하십시오.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MagnaCoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
         <translation>메시지가 지정된 MGN 주소로 서명되었는지 확인합니다.</translation>
     </message>
     <message>
@@ -682,12 +682,12 @@
         <translation>블록 탐색 창</translation>
     </message>
     <message>
-        <source>Show the MagnaCoin Core help message to get a list with possible MGN command-line options</source>
-        <translation>MagnaCoin Core 도움말 메세지를 표시하여 사용 가능한 MGN 명령행 옵션 목록 표시</translation>
+        <source>Show the KackCoin Core help message to get a list with possible MGN command-line options</source>
+        <translation>KackCoin Core 도움말 메세지를 표시하여 사용 가능한 MGN 명령행 옵션 목록 표시</translation>
     </message>
     <message>
-        <source>MagnaCoin Core client</source>
-        <translation>MagnaCoin Core 클라이언트</translation>
+        <source>KackCoin Core client</source>
+        <translation>KackCoin Core 클라이언트</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to MGN network</source>
@@ -1138,7 +1138,7 @@ Address: %4
         <translation>보내는 주소 수정</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid MagnaCoin address.</source>
+        <source>The entered address "%1" is not a valid KackCoin address.</source>
         <translation>입력된 주소 "%1"는 올바른 MGN 주소가 아닙니다.</translation>
     </message>
     <message>
@@ -1184,16 +1184,16 @@ Address: %4
         <translation>버전</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About MagnaCoin Core</source>
-        <translation>MagnaCoin Core 정보</translation>
+        <source>About KackCoin Core</source>
+        <translation>KackCoin Core 정보</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1239,16 +1239,16 @@ Address: %4
         <translation>환영합니다</translation>
     </message>
     <message>
-        <source>Welcome to MagnaCoin Core.</source>
-        <translation>MagnaCoin Core 환영합니다.</translation>
+        <source>Welcome to KackCoin Core.</source>
+        <translation>KackCoin Core 환영합니다.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where MagnaCoin Core will store its data.</source>
-        <translation>이 프로그램이 처음 실행되었으므로 MagnaCoin Core가 데이터를 저장할 위치를 선택할 수 있습니다.</translation>
+        <source>As this is the first time the program is launched, you can choose where KackCoin Core will store its data.</source>
+        <translation>이 프로그램이 처음 실행되었으므로 KackCoin Core가 데이터를 저장할 위치를 선택할 수 있습니다.</translation>
     </message>
     <message>
-        <source>MagnaCoin Core will download and store a copy of the MGN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>MagnaCoin Core는 MGN 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
+        <source>KackCoin Core will download and store a copy of the MGN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>KackCoin Core는 MGN 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1259,8 +1259,8 @@ Address: %4
         <translation>사용자 지정 데이터 디렉토리 사용:</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1401,8 +1401,8 @@ Address: %4
         <translation>보낼 주소 입력</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other MagnaCoin addresses after it matures.
-To Add: enter percentage to give and MagnaCoin address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other KackCoin addresses after it matures.
+To Add: enter percentage to give and KackCoin address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation>다중전송을 사용하면 성취 한 뒤 다른 MGN 주소 목록에 최대 100% 스테이크 또는 마스터노드 보상을 자동으로 보낼 수 있습니다.
@@ -2096,7 +2096,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>MGN을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid MagnaCoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid KackCoin address or malformed URI parameters.</source>
         <translation>URI를 분석할 수 없습니다! 이는 잘못된 MGN 주소 또는 URI 매개변수 손상으로 인해 발생할 수 있습니다.</translation>
     </message>
     <message>
@@ -2182,7 +2182,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>금액</translation>
     </message>
     <message>
-        <source>Enter a MagnaCoin address (e.g. %1)</source>
+        <source>Enter a KackCoin address (e.g. %1)</source>
         <translation>MGN 주소를 입력하세요 (예 %1)</translation>
     </message>
     <message>
@@ -2953,7 +2953,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>익명 자금</translation>
     </message>
     <message>
-        <source>Warning: Invalid MagnaCoin address</source>
+        <source>Warning: Invalid KackCoin address</source>
         <translation>경고: 잘못된 MGN 주소</translation>
     </message>
     <message>
@@ -3056,7 +3056,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>지불 &amp;대상:</translation>
     </message>
     <message>
-        <source>The MagnaCoin address to send the payment to</source>
+        <source>The KackCoin address to send the payment to</source>
         <translation>전송할 MGN 주소</translation>
     </message>
     <message>
@@ -3123,8 +3123,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>MagnaCoin Core is shutting down...</source>
-        <translation>MagnaCoin Core가 종료됩니다...</translation>
+        <source>KackCoin Core is shutting down...</source>
+        <translation>KackCoin Core가 종료됩니다...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3146,7 +3146,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>자신의 주소로 메세지에 서명할 수 있습니다. 피싱 공격으로 사용자를 속일 수 있으므로 서명에 주의해주세요. 동의하는 바에 한하여 서명하십시오.</translation>
     </message>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>메세지를 서명하기 위한 MGN 주소</translation>
     </message>
     <message>
@@ -3178,15 +3178,15 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>현재 서명을 시스템 클립 보드에 복사</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>이 MGN 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
+        <source>The KackCoin address the message was signed with</source>
         <translation>메세지에 서명된 MGN 주소</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MagnaCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
         <translation>메세지가 지정된 MGN 주소로 서명되었는지 확인해주세요</translation>
     </message>
     <message>
@@ -3273,8 +3273,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3289,8 +3289,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Dash Core 개발자</translation>
     </message>
     <message>
-        <source>The MagnaCoin Core developers</source>
-        <translation>MagnaCoin Core 개발자</translation>
+        <source>The KackCoin Core developers</source>
+        <translation>KackCoin Core 개발자</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3892,8 +3892,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>JSON-RPC연결 수신을 위해 주어진 주소를 지정합니다. [host]: IPv6 포트 표기법 사용. 이 옵션은 여러번 지정할 수 있습니다. (기본값 : 모든 인터페이스에 지정)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. MagnaCoin Core is probably already running.</source>
-        <translation>        &lt;translation&gt;잠겨진 데이터 디렉토리 %s 를 가져올 수 없습니다. MagnaCoin Core는 이미 실행 중입니다.</translation>
+        <source>Cannot obtain a lock on data directory %s. KackCoin Core is probably already running.</source>
+        <translation>        &lt;translation&gt;잠겨진 데이터 디렉토리 %s 를 가져올 수 없습니다. KackCoin Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4076,8 +4076,8 @@ rpcpassword=%s
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. MagnaCoin Core is probably already running.</source>
-        <translation>이 컴퓨터를 %s 로 지정하는것은 불가능합니다. MagnaCoin Core는 이미 실행 중입니다.</translation>
+        <source>Unable to bind to %s on this computer. KackCoin Core is probably already running.</source>
+        <translation>이 컴퓨터를 %s 로 지정하는것은 불가능합니다. KackCoin Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -4104,7 +4104,7 @@ rpcpassword=%s
         <translation>경고 : -paytxfee가 매우 높게 설정되었습니다! 이것은 전송할 경우 지불 할 트랜잭션 수수료입니다.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong MagnaCoin Core will not work properly.</source>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong KackCoin Core will not work properly.</source>
         <translation>경고: 컴퓨터의 날짜와 시간이 올바르게 설정되어 있는지 확인해 주세요! 만일 시계가 잘못되어 있다면 MGN 코어는 정상적으로 작동하지 않을 수 있습니다.</translation>
     </message>
     <message>
@@ -4248,8 +4248,8 @@ rpcpassword=%s
         <translation>Copyright (C) 2014-%i The Dash Core 개발자들</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The MagnaCoin Core Developers</source>
-        <translation>Copyright (C) 2015-%i The MagnaCoin Core 개발자</translation>
+        <source>Copyright (C) 2015-%i The KackCoin Core Developers</source>
+        <translation>Copyright (C) 2015-%i The KackCoin Core 개발자</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4320,7 +4320,7 @@ rpcpassword=%s
         <translation>wallet.dat을 불러오는 중 오류가 발생했습니다: 지갑 손상됨</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of MagnaCoin Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of KackCoin Core</source>
         <translation>wallet.dat를 로드하는 중 오류가 발생했습니다. 지갑에 최신 버전의 MGN 코어가 필요합니다.</translation>
     </message>
     <message>
@@ -4432,8 +4432,8 @@ rpcpassword=%s
         <translation>정보</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. MagnaCoin Core is shutting down.</source>
-        <translation>초기화 정확성 검사에 실패 했습니다. MagnaCoin Core가 종료됩니다.</translation>
+        <source>Initialization sanity check failed. KackCoin Core is shutting down.</source>
+        <translation>초기화 정확성 검사에 실패 했습니다. KackCoin Core가 종료됩니다.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5008,7 +5008,7 @@ rpcpassword=%s
         <translation>지갑이 잠겼습니다.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart MagnaCoin Core to complete</source>
+        <source>Wallet needed to be rewritten: restart KackCoin Core to complete</source>
         <translation>지갑을 다시 작성해야 합니다: 완료하려면 MGN 코어를 재시작해야 합니다</translation>
     </message>
     <message>

@@ -62,11 +62,11 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Toto jsou Vaše MGN adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Toto jsou Vaše MGN adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a MagnaCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Zadejte MGN adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
@@ -247,7 +247,7 @@
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>MGN adresa pro podepsání zprávy</translation>
     </message>
     <message>
@@ -279,7 +279,7 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>Podepsat zprávu k prokázání, že vlastníte tuto MGN adresu</translation>
     </message>
     <message>
@@ -303,11 +303,11 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
+        <source>The KackCoin address the message was signed with</source>
         <translation>MGN adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MagnaCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
         <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou MGN adresou</translation>
     </message>
     <message>
@@ -598,11 +598,11 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a MagnaCoin address</source>
+        <source>Send coins to a KackCoin address</source>
         <translation>Odeslat platbuna MGN adresu</translation>
     </message>
     <message>
@@ -618,23 +618,23 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About MagnaCoin Core</source>
-        <translation>&amp;O MagnaCoin Core</translation>
+        <source>&amp;About KackCoin Core</source>
+        <translation>&amp;O KackCoin Core</translation>
     </message>
     <message>
-        <source>Show information about MagnaCoin Core</source>
-        <translation>Zobraz informace o MagnaCoin Core</translation>
+        <source>Show information about KackCoin Core</source>
+        <translation>Zobraz informace o KackCoin Core</translation>
     </message>
     <message>
         <source>Modify configuration options for MGN</source>
         <translation>Upravit možnosti konfigurace pro MGN</translation>
     </message>
     <message>
-        <source>Sign messages with your MagnaCoin addresses to prove you own them</source>
+        <source>Sign messages with your KackCoin addresses to prove you own them</source>
         <translation>Podepsat zprávy Vaší MGN adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MagnaCoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
         <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými MGN adresami</translation>
     </message>
     <message>
@@ -678,12 +678,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the MagnaCoin Core help message to get a list with possible MGN command-line options</source>
-        <translation>Zobrazit MagnaCoin Core pomocnou zpráv pro získání seznamu možných parametrů MGN pro příkazy do příkazové řádky</translation>
+        <source>Show the KackCoin Core help message to get a list with possible MGN command-line options</source>
+        <translation>Zobrazit KackCoin Core pomocnou zpráv pro získání seznamu možných parametrů MGN pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>MagnaCoin Core client</source>
-        <translation>MagnaCoin Core klient</translation>
+        <source>KackCoin Core client</source>
+        <translation>KackCoin Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1070,7 +1070,7 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid MagnaCoin address.</source>
+        <source>The entered address "%1" is not a valid KackCoin address.</source>
         <translation>Zadaná adresa "%1" není validní MGN adresa.</translation>
     </message>
     <message>
@@ -1116,12 +1116,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     <message>
-        <source>About MagnaCoin Core</source>
-        <translation>O MagnaCoin Core</translation>
+        <source>About KackCoin Core</source>
+        <translation>O KackCoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1155,16 +1155,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to MagnaCoin Core.</source>
-        <translation>Vítejte v MagnaCoin Core.</translation>
+        <source>Welcome to KackCoin Core.</source>
+        <translation>Vítejte v KackCoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where MagnaCoin Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude MagnaCoin Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where KackCoin Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude KackCoin Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>MagnaCoin Core will download and store a copy of the MGN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>MagnaCoin Core stáhne a uloží kopii MGN blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>KackCoin Core will download and store a copy of the MGN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>KackCoin Core stáhne a uloží kopii MGN blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1175,8 +1175,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2199,7 +2199,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>MGN adresa pro podepsání zprávy</translation>
     </message>
     <message>
@@ -2227,15 +2227,15 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>Podepsat zprávu k prokázání, že vlastníte tuto MGN adresu</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
+        <source>The KackCoin address the message was signed with</source>
         <translation>MGN adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MagnaCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
         <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou MGN adresou</translation>
     </message>
     <message>
@@ -2278,8 +2278,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     </context>
 <context>

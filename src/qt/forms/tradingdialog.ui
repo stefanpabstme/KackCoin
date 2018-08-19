@@ -2941,7 +2941,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate MagnaCoin Deposit Address</string>
+      <string>Generate KackCoin Deposit Address</string>
      </property>
      <property name="icon">
       <iconset resource="../mgn.qrc">
@@ -3155,7 +3155,7 @@
        <string notr="true">border: 1px solid #61696c;margin-left:4px;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnConvertMagnaCoin">
+     <widget class="QPushButton" name="btnConvertKackCoin">
       <property name="geometry">
        <rect>
         <x>260</x>

@@ -62,11 +62,11 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Nämä ovat sinun MGN osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Nämä ovat sinun MGN osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
@@ -227,7 +227,7 @@
         <translation>&amp;BIP 38 Salaus</translation>
     </message>
     <message>
-        <source>Enter a MagnaCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Syötä MGN osoite, jonnka tahtoisit salata käyttäen BIP 38.
 Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
     </message>
@@ -236,7 +236,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Osoite:</translation>
     </message>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>MGN osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
@@ -268,7 +268,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>Allekirjoita viesti todistaaksesi, että omistat tämän MGN osoitteen</translation>
     </message>
     <message>
@@ -288,7 +288,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;BIP 38 salauksen avaus</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
+        <source>The KackCoin address the message was signed with</source>
         <translation>MGN osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
@@ -575,11 +575,11 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>MGN Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a MagnaCoin address</source>
+        <source>Send coins to a KackCoin address</source>
         <translation>Lähetä kolikkoja MGN osoitteeseen</translation>
     </message>
     <message>
@@ -595,11 +595,11 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About MagnaCoin Core</source>
-        <translation>MagnaCoin Core &amp;ytimestä</translation>
+        <source>&amp;About KackCoin Core</source>
+        <translation>KackCoin Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about MagnaCoin Core</source>
+        <source>Show information about KackCoin Core</source>
         <translation>Näytä tietoja MGN Ytimestä</translation>
     </message>
     <message>
@@ -607,11 +607,11 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Muokkaa konfiguraatio vaihtoehtoja MGN:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your MagnaCoin addresses to prove you own them</source>
+        <source>Sign messages with your KackCoin addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MagnaCoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
         <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä MGN osoiteella.</translation>
     </message>
     <message>
@@ -655,11 +655,11 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the MagnaCoin Core help message to get a list with possible MGN command-line options</source>
+        <source>Show the KackCoin Core help message to get a list with possible MGN command-line options</source>
         <translation>Näytä MGN Ydin apuviesti saadaksesi lista mahdollisista MGN komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>MagnaCoin Core client</source>
+        <source>KackCoin Core client</source>
         <translation>MGN Ydin asiakasohjelma</translation>
     </message>
     <message>
@@ -894,7 +894,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>MGN Ydin</translation>
     </message>
     <message>
@@ -913,11 +913,11 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to MagnaCoin Core.</source>
+        <source>Welcome to KackCoin Core.</source>
         <translation>Tervetuloa MGN Ytimeen.</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>MGN Ydin</translation>
     </message>
     <message>
@@ -1608,7 +1608,7 @@ Please check the address and try again.</source>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>MGN osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
@@ -1632,11 +1632,11 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>Allekirjoita viesti todistaaksesi, että omistat tämän MGN osoitteen</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
+        <source>The KackCoin address the message was signed with</source>
         <translation>MGN osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
@@ -1675,7 +1675,7 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>MGN Ydin</translation>
     </message>
     </context>

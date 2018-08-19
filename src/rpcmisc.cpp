@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017 The MagnaCoin developers
+// Copyright (c) 2017 The KackCoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -254,13 +254,13 @@ Value validateaddress(const Array& params, bool fHelp)
     if (fHelp || params.size() != 1)
         throw runtime_error(
             "validateaddress \"mgnaddress\"\n"
-            "\nReturn information about the given MagnaCoin address.\n"
+            "\nReturn information about the given KackCoin address.\n"
             "\nArguments:\n"
-            "1. \"mgnaddress\"     (string, required) The MagnaCoin address to validate\n"
+            "1. \"mgnaddress\"     (string, required) The KackCoin address to validate\n"
             "\nResult:\n"
             "{\n"
             "  \"isvalid\" : true|false,         (boolean) If the address is valid or not. If not, this is the only property returned.\n"
-            "  \"address\" : \"mgnaddress\", (string) The MagnaCoin address validated\n"
+            "  \"address\" : \"mgnaddress\", (string) The KackCoin address validated\n"
             "  \"ismine\" : true|false,          (boolean) If the address is yours or not\n"
             "  \"isscript\" : true|false,        (boolean) If the key is a script\n"
             "  \"pubkey\" : \"publickeyhex\",    (string) The hex value of the raw public key\n"
@@ -317,7 +317,7 @@ CScript _createmultisig_redeemScript(const Array& params)
     for (unsigned int i = 0; i < keys.size(); i++) {
         const std::string& ks = keys[i].get_str();
 #ifdef ENABLE_WALLET
-        // Case 1: MagnaCoin address and we have full public key:
+        // Case 1: KackCoin address and we have full public key:
         CBitcoinAddress address(ks);
         if (pwalletMain && address.IsValid()) {
             CKeyID keyID;
@@ -363,9 +363,9 @@ Value createmultisig(const Array& params, bool fHelp)
 
                      "\nArguments:\n"
                      "1. nrequired      (numeric, required) The number of required signatures out of the n keys or addresses.\n"
-                     "2. \"keys\"       (string, required) A json array of keys which are MagnaCoin addresses or hex-encoded public keys\n"
+                     "2. \"keys\"       (string, required) A json array of keys which are KackCoin addresses or hex-encoded public keys\n"
                      "     [\n"
-                     "       \"key\"    (string) MagnaCoin address or hex-encoded public key\n"
+                     "       \"key\"    (string) KackCoin address or hex-encoded public key\n"
                      "       ,...\n"
                      "     ]\n"
 
@@ -401,7 +401,7 @@ Value verifymessage(const Array& params, bool fHelp)
             "verifymessage \"mgnaddress\" \"signature\" \"message\"\n"
             "\nVerify a signed message\n"
             "\nArguments:\n"
-            "1. \"mgnaddress\"  (string, required) The MagnaCoin address to use for the signature.\n"
+            "1. \"mgnaddress\"  (string, required) The KackCoin address to use for the signature.\n"
             "2. \"signature\"       (string, required) The signature provided by the signer in base 64 encoding (see signmessage).\n"
             "3. \"message\"         (string, required) The message that was signed.\n"
             "\nResult:\n"

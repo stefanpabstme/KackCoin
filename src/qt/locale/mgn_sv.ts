@@ -58,11 +58,11 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Det här är dina MGN adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Det här är dina MGN adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
@@ -223,7 +223,7 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a MagnaCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Skriv in en MGN adress som du vill kryptera med BIP 38.
 Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
@@ -232,7 +232,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>MGN adressen för signera meddelandet med</translation>
     </message>
     <message>
@@ -264,7 +264,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>Signera meddelandet för att bevisa att du äger denna MGN adress</translation>
     </message>
     <message>
@@ -288,11 +288,11 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Ange</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
+        <source>The KackCoin address the message was signed with</source>
         <translation>MGN adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MagnaCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
         <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika MGN adressen.</translation>
     </message>
     <message>
@@ -583,11 +583,11 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>MGN Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a MagnaCoin address</source>
+        <source>Send coins to a KackCoin address</source>
         <translation>Skicka mynt till en MGN adress</translation>
     </message>
     <message>
@@ -603,11 +603,11 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About MagnaCoin Core</source>
+        <source>&amp;About KackCoin Core</source>
         <translation>Om MGN Kärnan</translation>
     </message>
     <message>
-        <source>Show information about MagnaCoin Core</source>
+        <source>Show information about KackCoin Core</source>
         <translation>Visa information om MGN Kärnan</translation>
     </message>
     <message>
@@ -615,11 +615,11 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Ändra konfigurationsval för MGN</translation>
     </message>
     <message>
-        <source>Sign messages with your MagnaCoin addresses to prove you own them</source>
+        <source>Sign messages with your KackCoin addresses to prove you own them</source>
         <translation>Signera meddelanden med din MGN adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MagnaCoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
         <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika MGN adressen.</translation>
     </message>
     <message>
@@ -631,7 +631,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>MagnaCoin Core client</source>
+        <source>KackCoin Core client</source>
         <translation>MGN kärn klient</translation>
     </message>
     <message>
@@ -841,14 +841,14 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>MGN Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>MGN Kärna</translation>
     </message>
     <message>
@@ -1106,7 +1106,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>MGN adressen för signera meddelandet med</translation>
     </message>
     <message>
@@ -1130,15 +1130,15 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>Signera meddelandet för att bevisa att du äger denna MGN adress</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
+        <source>The KackCoin address the message was signed with</source>
         <translation>MGN adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MagnaCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
         <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika MGN adressen.</translation>
     </message>
     <message>
@@ -1181,7 +1181,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>MGN Kärna</translation>
     </message>
     </context>

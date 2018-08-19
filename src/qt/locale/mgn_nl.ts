@@ -62,11 +62,11 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dit zijn uw MGNadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Dit zijn uw MGNadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
         <translation>&amp;BIP 38 Versleuteling</translation>
     </message>
     <message>
-        <source>Enter a MagnaCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Voer een MGN adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>Het MGN adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
@@ -271,7 +271,7 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>Onderteken het bericht om te bewijzen dat u het MGN adres bezit</translation>
     </message>
     <message>
@@ -295,11 +295,11 @@
         <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer het wachtwoord in, in het middelste veld. Druk op Ontsleutelen Sleutel om de geheime sleutel te berekenen.  Nadat de geheime sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de geheime sleutel toevoegen aan de portemonnee.</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
+        <source>The KackCoin address the message was signed with</source>
         <translation>Het MGN adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MagnaCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
         <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde MGN adres</translation>
     </message>
     <message>
@@ -590,11 +590,11 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>MGN Kern</translation>
     </message>
     <message>
-        <source>Send coins to a MagnaCoin address</source>
+        <source>Send coins to a KackCoin address</source>
         <translation>Verstuur munten naar een MGN adres</translation>
     </message>
     <message>
@@ -610,11 +610,11 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About MagnaCoin Core</source>
+        <source>&amp;About KackCoin Core</source>
         <translation>&amp;Over MGN Kern</translation>
     </message>
     <message>
-        <source>Show information about MagnaCoin Core</source>
+        <source>Show information about KackCoin Core</source>
         <translation>Toon informatie over MGN Kern</translation>
     </message>
     <message>
@@ -622,11 +622,11 @@
         <translation>Wijzig MGN configuratie opties</translation>
     </message>
     <message>
-        <source>Sign messages with your MagnaCoin addresses to prove you own them</source>
+        <source>Sign messages with your KackCoin addresses to prove you own them</source>
         <translation>Onderteken berichten met uw MGN adressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MagnaCoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
         <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde MGN adressen</translation>
     </message>
     <message>
@@ -942,7 +942,7 @@
         <translation>Wijzig verzendadres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid MagnaCoin address.</source>
+        <source>The entered address "%1" is not a valid KackCoin address.</source>
         <translation>Het ingevoerde adres: "%1" is geen geldig MGN adres.</translation>
     </message>
     <message>
@@ -964,7 +964,7 @@
         <translation>versie</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>MGN Kern</translation>
     </message>
     <message>
@@ -979,7 +979,7 @@
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>MGN Kern</translation>
     </message>
     <message>
@@ -1426,14 +1426,14 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>MagnaCoin Core is shutting down...</source>
-        <translation>MagnaCoin Core is aan het afsluiten...</translation>
+        <source>KackCoin Core is shutting down...</source>
+        <translation>KackCoin Core is aan het afsluiten...</translation>
     </message>
     </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>Het MGN adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
@@ -1465,15 +1465,15 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>Onderteken het bericht om te bewijzen dat u het MGN adres bezit</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
+        <source>The KackCoin address the message was signed with</source>
         <translation>Het MGN adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MagnaCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
         <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde MGN adres</translation>
     </message>
     <message>
@@ -1512,7 +1512,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>MGN Kern</translation>
     </message>
     <message>

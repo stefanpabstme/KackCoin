@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between mgn-cli and mgnd)
- * of a given instance of the MagnaCoin system.
+ * of a given instance of the KackCoin system.
  */
 class CBaseChainParams
 {

@@ -62,11 +62,11 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Esses são seus endereços MGN para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Esses são seus endereços MGN para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
         <translation>Encriptar com &amp;BIP 38</translation>
     </message>
     <message>
-        <source>Enter a MagnaCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Digite um endereço MGN que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
     </message>
     <message>
@@ -247,7 +247,7 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>Um endereço MGN para assinar a mensagem</translation>
     </message>
     <message>
@@ -279,7 +279,7 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>Assinar a Mensagem para provar que você e dono desse endereço MGN.</translation>
     </message>
     <message>
@@ -299,7 +299,7 @@
         <translation>Criptografia BIP 38</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
+        <source>The KackCoin address the message was signed with</source>
         <translation>O endereço MGN que foi assinado com</translation>
     </message>
     <message>
@@ -633,7 +633,7 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>Um endereço MGN para assinar a mensagem</translation>
     </message>
     <message>
@@ -665,11 +665,11 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>Assinar a Mensagem para provar que você e dono desse endereço MGN.</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
+        <source>The KackCoin address the message was signed with</source>
         <translation>O endereço MGN que foi assinado com</translation>
     </message>
     <message>
@@ -1242,8 +1242,8 @@
         <translation>Carteira esta bloqueada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart MagnaCoin Core to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o MagnaCoin Core para completar.</translation>
+        <source>Wallet needed to be rewritten: restart KackCoin Core to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o KackCoin Core para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

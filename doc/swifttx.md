@@ -12,8 +12,8 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via SwiftTX
 
 This mechanism has been integrated into Bitcore-Node-MGN which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/MagnaCoinProject/insight-api-mgn#web-socket-api](https://github.com/MagnaCoinProject/insight-api-mgn#web-socket-api)
-* API: [https://github.com/MagnaCoinProject/insight-api-mgn#swifttx-transactions](https://github.com/MagnaCoinProject/insight-api-mgn#swifttx-transactions)
+* WebSocket: [https://github.com/KackCoinProject/insight-api-mgn#web-socket-api](https://github.com/KackCoinProject/insight-api-mgn#web-socket-api)
+* API: [https://github.com/KackCoinProject/insight-api-mgn#swifttx-transactions](https://github.com/KackCoinProject/insight-api-mgn#swifttx-transactions)
 
 ####Command line option
 
@@ -27,13 +27,13 @@ When a wallet SwiftTX transaction is successfully locked a shell command provide
 
 Details pertaining to an observed "Transaction Lock" can also be retrieved through RPC, it’s important however to understand the underlying mechanism.
 
-By default, the MagnaCoin Core daemon will launch using the following constant:
+By default, the KackCoin Core daemon will launch using the following constant:
 
 ```
 static const int DEFAULT_SWIFTTX_DEPTH = 5;
 ```
 
-This value can be overridden by passing the following argument to the MagnaCoin Core daemon:
+This value can be overridden by passing the following argument to the KackCoin Core daemon:
 
 ```
 -swifttxdepth=<n>

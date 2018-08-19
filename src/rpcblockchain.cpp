@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017 The MagnaCoin developers
+// Copyright (c) 2017 The KackCoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -403,8 +403,8 @@ Value gettxout(const Array& params, bool fHelp)
             "     \"hex\" : \"hex\",        (string) \n"
             "     \"reqSigs\" : n,          (numeric) Number of required signatures\n"
             "     \"type\" : \"pubkeyhash\", (string) The type, eg pubkeyhash\n"
-            "     \"addresses\" : [          (array of string) array of MagnaCoin addresses\n"
-            "     \"mgnaddress\"   	 	(string) MagnaCoin address\n"
+            "     \"addresses\" : [          (array of string) array of KackCoin addresses\n"
+            "     \"mgnaddress\"   	 	(string) KackCoin address\n"
             "        ,...\n"
             "     ]\n"
             "  },\n"

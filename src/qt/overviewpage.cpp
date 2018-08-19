@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017 The MagnaCoin developers
+// Copyright (c) 2017 The KackCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -310,15 +310,15 @@ void OverviewPage::updateObfuscationProgress()
     if (!pwalletMain) return;
 
     QString strAmountAndRounds;
-    QString strAnonymizeMagnaCoinAmount = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nAnonymizeMagnaCoinAmount * COIN, false, BitcoinUnits::separatorAlways);
+    QString strAnonymizeKackCoinAmount = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nAnonymizeKackCoinAmount * COIN, false, BitcoinUnits::separatorAlways);
 
     if (currentBalance == 0) {
         ui->obfuscationProgress->setValue(0);
         ui->obfuscationProgress->setToolTip(tr("No inputs detected"));
 
         // when balance is zero just show info from settings
-        strAnonymizeMagnaCoinAmount = strAnonymizeMagnaCoinAmount.remove(strAnonymizeMagnaCoinAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
-        strAmountAndRounds = strAnonymizeMagnaCoinAmount + " / " + tr("%n Rounds", "", nObfuscationRounds);
+        strAnonymizeKackCoinAmount = strAnonymizeKackCoinAmount.remove(strAnonymizeKackCoinAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
+        strAmountAndRounds = strAnonymizeKackCoinAmount + " / " + tr("%n Rounds", "", nObfuscationRounds);
 
         ui->labelAmountRounds->setToolTip(tr("No inputs detected"));
         ui->labelAmountRounds->setText(strAmountAndRounds);
@@ -345,20 +345,20 @@ void OverviewPage::updateObfuscationProgress()
     CAmount nMaxToAnonymize = nAnonymizableBalance + currentAnonymizedBalance + nDenominatedUnconfirmedBalance;
 
     // If it's more than the anon threshold, limit to that.
-    if (nMaxToAnonymize > nAnonymizeMagnaCoinAmount * COIN) nMaxToAnonymize = nAnonymizeMagnaCoinAmount * COIN;
+    if (nMaxToAnonymize > nAnonymizeKackCoinAmount * COIN) nMaxToAnonymize = nAnonymizeKackCoinAmount * COIN;
 
     if (nMaxToAnonymize == 0) return;
 
-    if (nMaxToAnonymize >= nAnonymizeMagnaCoinAmount * COIN) {
+    if (nMaxToAnonymize >= nAnonymizeKackCoinAmount * COIN) {
         ui->labelAmountRounds->setToolTip(tr("Found enough compatible inputs to anonymize %1")
-                                              .arg(strAnonymizeMagnaCoinAmount));
-        strAnonymizeMagnaCoinAmount = strAnonymizeMagnaCoinAmount.remove(strAnonymizeMagnaCoinAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
-        strAmountAndRounds = strAnonymizeMagnaCoinAmount + " / " + tr("%n Rounds", "", nObfuscationRounds);
+                                              .arg(strAnonymizeKackCoinAmount));
+        strAnonymizeKackCoinAmount = strAnonymizeKackCoinAmount.remove(strAnonymizeKackCoinAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
+        strAmountAndRounds = strAnonymizeKackCoinAmount + " / " + tr("%n Rounds", "", nObfuscationRounds);
     } else {
         QString strMaxToAnonymize = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nMaxToAnonymize, false, BitcoinUnits::separatorAlways);
         ui->labelAmountRounds->setToolTip(tr("Not enough compatible inputs to anonymize <span style='color:red;'>%1</span>,<br>"
                                              "will anonymize <span style='color:red;'>%2</span> instead")
-                                              .arg(strAnonymizeMagnaCoinAmount)
+                                              .arg(strAnonymizeKackCoinAmount)
                                               .arg(strMaxToAnonymize));
         strMaxToAnonymize = strMaxToAnonymize.remove(strMaxToAnonymize.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
         strAmountAndRounds = "<span style='color:red;'>" +
@@ -529,7 +529,7 @@ void OverviewPage::toggleObfuscation()
 
         /* show obfuscation configuration if client has defaults set */
 
-        if (nAnonymizeMagnaCoinAmount == 0) {
+        if (nAnonymizeKackCoinAmount == 0) {
             ObfuscationConfig dlg(this);
             dlg.setModel(walletModel);
             dlg.exec();

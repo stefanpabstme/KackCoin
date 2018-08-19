@@ -1,9 +1,9 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=MagnaCoin
-Comment=MagnaCoin P2P Cryptocurrency
-Comment[fr]=MagnaCoin, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=MagnaCoin, eşten eşe kriptografik sanal para birimi
+Name=KackCoin
+Comment=KackCoin P2P Cryptocurrency
+Comment[fr]=KackCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=KackCoin, eşten eşe kriptografik sanal para birimi
 Exec=mgn-qt %u
 Terminal=false
 Type=Application

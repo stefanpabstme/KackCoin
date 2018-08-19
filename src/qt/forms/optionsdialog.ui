@@ -182,7 +182,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QSpinBox" name="anonymizeMagnaCoin">
+          <widget class="QSpinBox" name="anonymizeKackCoin">
            <property name="minimum">
             <number>100</number>
            </property>
@@ -476,7 +476,7 @@
          </property>
          <property name="text">
           <string>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/MagnaCoin/MagnaCoin-project-translations</string>
+https://www.transifex.com/KackCoin/KackCoin-project-translations</string>
          </property>
          <property name="wordWrap">
           <bool>true</bool>

@@ -62,11 +62,11 @@
         <translation>接收的位址</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>這是你用來付款的 MGN 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>這是你用來接收款項的 MGN 位址, 建議你每次付款都使用新的位址.</translation>
     </message>
     <message>
@@ -227,7 +227,7 @@
         <translation>&amp;BIP 38 加密</translation>
     </message>
     <message>
-        <source>Enter a MagnaCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>輸入你想 BIP 38 加密的 MGN 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
     </message>
     <message>
@@ -235,7 +235,7 @@
         <translation>位址:</translation>
     </message>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>對訊息簽名的 MGN 位址</translation>
     </message>
     <message>
@@ -267,7 +267,7 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>使用簽章來證明你是該  MGN 位址的擁有者,</translation>
     </message>
     <message>
@@ -287,11 +287,11 @@
         <translation>&amp;BIP 38 解密</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
+        <source>The KackCoin address the message was signed with</source>
         <translation>此訊息之 MGN 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MagnaCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
         <translation>驗證訊息以確保該  MGN 位址已被簽章</translation>
     </message>
     <message>
@@ -582,11 +582,11 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a MagnaCoin address</source>
+        <source>Send coins to a KackCoin address</source>
         <translation>送出錢幣到 MGN 地址</translation>
     </message>
     <message>
@@ -602,23 +602,23 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About MagnaCoin Core</source>
-        <translation>&amp;關於 MagnaCoin Core</translation>
+        <source>&amp;About KackCoin Core</source>
+        <translation>&amp;關於 KackCoin Core</translation>
     </message>
     <message>
-        <source>Show information about MagnaCoin Core</source>
-        <translation>顯示 MagnaCoin Core 相關資訊</translation>
+        <source>Show information about KackCoin Core</source>
+        <translation>顯示 KackCoin Core 相關資訊</translation>
     </message>
     <message>
         <source>Modify configuration options for MGN</source>
         <translation>修改 MGN 設定</translation>
     </message>
     <message>
-        <source>Sign messages with your MagnaCoin addresses to prove you own them</source>
+        <source>Sign messages with your KackCoin addresses to prove you own them</source>
         <translation>使用你的 MGN 位址對訊息簽章, 來證明你是擁有者</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MagnaCoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
         <translation>驗證訊息簽章與 MGN 位址吻合</translation>
     </message>
     <message>
@@ -662,12 +662,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the MagnaCoin Core help message to get a list with possible MGN command-line options</source>
-        <translation>顯示 MagnaCoin Core 幫助訊息以取得 MGN 命令列表選項</translation>
+        <source>Show the KackCoin Core help message to get a list with possible MGN command-line options</source>
+        <translation>顯示 KackCoin Core 幫助訊息以取得 MGN 命令列表選項</translation>
     </message>
     <message>
-        <source>MagnaCoin Core client</source>
-        <translation>MagnaCoin Core 客戶端</translation>
+        <source>KackCoin Core client</source>
+        <translation>KackCoin Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -696,15 +696,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     </context>
 <context>
@@ -817,7 +817,7 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>對訊息簽名的 MGN 位址</translation>
     </message>
     <message>
@@ -841,15 +841,15 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>使用簽章來證明你是該  MGN 位址的擁有者,</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
+        <source>The KackCoin address the message was signed with</source>
         <translation>此訊息之 MGN 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MagnaCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
         <translation>驗證訊息以確保該  MGN 位址已被簽章</translation>
     </message>
     <message>
@@ -888,8 +888,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     </context>
 <context>

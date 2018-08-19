@@ -213,7 +213,7 @@ void OptionsDialog::setMapper()
 
     /* Obfuscation Rounds */
     mapper->addMapping(ui->obfuscationRounds, OptionsModel::ObfuscationRounds);
-    mapper->addMapping(ui->anonymizeMagnaCoin, OptionsModel::AnonymizeMagnaCoinAmount);
+    mapper->addMapping(ui->anonymizeKackCoin, OptionsModel::AnonymizeKackCoinAmount);
     mapper->addMapping(ui->showMasternodesTab, OptionsModel::ShowMasternodesTab);
 }
 

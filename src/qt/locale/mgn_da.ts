@@ -62,11 +62,11 @@
         <translation>Modtageradresse</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dine adresser til at sende betalinger med. Kontroller altid både beløb og modtageradresse før afsendelse.</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Dette er dine modtager adresser. Det anbefales at anvende en ny adresse til hver transaktion</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
         <translation>BIP 38 kryptografering</translation>
     </message>
     <message>
-        <source>Enter a MagnaCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Indtast den MGN adresse De ønsker at kryptografere ved hjælp af BIP 38. Indtast et kodeord i den midterste boks. Klik på krypter for at generere den kryptograferede private nøgle.</translation>
     </message>
     <message>
@@ -247,7 +247,7 @@
         <translation>Adresse</translation>
     </message>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>Den MGN adresse, der skal bruges til at underskrive beskeden med.</translation>
     </message>
     <message>
@@ -279,7 +279,7 @@
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>Underskriv beskeden for at bevise, at De ejer denne MGN adresse.</translation>
     </message>
     <message>
@@ -303,11 +303,11 @@
         <translation>Indtast den krypterede BIP 38 nøgle. Indtast kodeordet i den midterste boks. Klik på dekryptér for at generere den private nøgle. Når nøglen er dekrypteret vil klip på "importér adresse" overføre den private nøgle til tegnebogen.</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
+        <source>The KackCoin address the message was signed with</source>
         <translation>Beskeden er underskrevet med denne MGN adresse</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MagnaCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
         <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige MGN adresse.</translation>
     </message>
     <message>
@@ -598,11 +598,11 @@
         <translation>Værktøjslinier</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>MGN kerne</translation>
     </message>
     <message>
-        <source>Send coins to a MagnaCoin address</source>
+        <source>Send coins to a KackCoin address</source>
         <translation>Send mønter til en MGN adresse</translation>
     </message>
     <message>
@@ -618,11 +618,11 @@
         <translation>Vis masternoder</translation>
     </message>
     <message>
-        <source>&amp;About MagnaCoin Core</source>
+        <source>&amp;About KackCoin Core</source>
         <translation>&amp;Om MGN kerne</translation>
     </message>
     <message>
-        <source>Show information about MagnaCoin Core</source>
+        <source>Show information about KackCoin Core</source>
         <translation>Vis information om MGN kerne</translation>
     </message>
     <message>
@@ -630,11 +630,11 @@
         <translation>Ret konfigurationsindstillinger for MGN</translation>
     </message>
     <message>
-        <source>Sign messages with your MagnaCoin addresses to prove you own them</source>
+        <source>Sign messages with your KackCoin addresses to prove you own them</source>
         <translation>Underskriv beskeder med Deres MGN adresser for at bekræfte at De ejer dem.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MagnaCoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
         <translation>Verificer besked for at sikre, at den er underskrevet med den opgivne MGN adresse</translation>
     </message>
     <message>
@@ -678,11 +678,11 @@
         <translation>Blockexplorer vindue</translation>
     </message>
     <message>
-        <source>Show the MagnaCoin Core help message to get a list with possible MGN command-line options</source>
+        <source>Show the KackCoin Core help message to get a list with possible MGN command-line options</source>
         <translation>Vis hjelpetekster fra MGN kernen for at få en liste med mulige MGN kommandolinie-startparametre</translation>
     </message>
     <message>
-        <source>MagnaCoin Core client</source>
+        <source>KackCoin Core client</source>
         <translation>MGN kerneklient</translation>
     </message>
     <message>
@@ -1114,7 +1114,7 @@ Adresse: %4
         <translation>Ret afsenderadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid MagnaCoin address.</source>
+        <source>The entered address "%1" is not a valid KackCoin address.</source>
         <translation>Den indtastede adresse %1 er ikke en gyldig MGN adresse</translation>
     </message>
     <message>
@@ -1160,7 +1160,7 @@ Adresse: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>MGN kerne</translation>
     </message>
     <message>
@@ -1168,7 +1168,7 @@ Adresse: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About MagnaCoin Core</source>
+        <source>About KackCoin Core</source>
         <translation>om MGN kerne</translation>
     </message>
     <message>
@@ -1215,15 +1215,15 @@ Adresse: %4
         <translation>Velkommen</translation>
     </message>
     <message>
-        <source>Welcome to MagnaCoin Core.</source>
+        <source>Welcome to KackCoin Core.</source>
         <translation>Velkommen til MGN kerne</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where MagnaCoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where KackCoin Core will store its data.</source>
         <translation>Da det er første gang programmet startes, kan De vælge hvor MGN kernen skal lagre sine data</translation>
     </message>
     <message>
-        <source>MagnaCoin Core will download and store a copy of the MGN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>KackCoin Core will download and store a copy of the MGN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>MGN kernen vil nu hente og gemme en kopi af MGN blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
     </message>
     <message>
@@ -1235,7 +1235,7 @@ Adresse: %4
         <translation>Anvend en mappe valgt af brugeren</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>MGN kerne</translation>
     </message>
     <message>
@@ -1377,8 +1377,8 @@ Adresse: %4
         <translation>Indtast modtageradresse</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other MagnaCoin addresses after it matures.
-To Add: enter percentage to give and MagnaCoin address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other KackCoin addresses after it matures.
+To Add: enter percentage to give and KackCoin address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre MGN adressater når den er tilstrækkelig stor. 
@@ -2063,7 +2063,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Kan ikke starte MGN "klik for at betale" systemet</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid MagnaCoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid KackCoin address or malformed URI parameters.</source>
         <translation>URl kan ikke fortolkes! Det kan skyldes en ugyldig adresse, eller forkerte URl parametre.</translation>
     </message>
     <message>
@@ -2149,7 +2149,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Beløb</translation>
     </message>
     <message>
-        <source>Enter a MagnaCoin address (e.g. %1)</source>
+        <source>Enter a KackCoin address (e.g. %1)</source>
         <translation>Indtast en MGN adresse (F.eks. %1)</translation>
     </message>
     <message>
@@ -2919,7 +2919,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Anonyme saldi</translation>
     </message>
     <message>
-        <source>Warning: Invalid MagnaCoin address</source>
+        <source>Warning: Invalid KackCoin address</source>
         <translation>Advarsel! Ugyldig MGN adresse</translation>
     </message>
     <message>
@@ -3026,7 +3026,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Betal &amp;Til</translation>
     </message>
     <message>
-        <source>The MagnaCoin address to send the payment to</source>
+        <source>The KackCoin address to send the payment to</source>
         <translation>MGN adressen, som betalingen skal sendes til</translation>
     </message>
     <message>
@@ -3093,7 +3093,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>MagnaCoin Core is shutting down...</source>
+        <source>KackCoin Core is shutting down...</source>
         <translation>MGN kernen lukker ned</translation>
     </message>
     <message>
@@ -3116,7 +3116,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>De kan underskrive beskeder med Deres adresser or at bevise ejerskab. Vær forsigtig med at underskrive noget De er usikker på såsom forsøg op at narre Dem til at oplyse Deres identitet. Skriv kun under på noget De kan stå inde for, og som De er enig i. </translation>
     </message>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>Den MGN adresse, der skal bruges til at underskrive beskeden med.</translation>
     </message>
     <message>
@@ -3148,15 +3148,15 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>Underskriv beskeden for at bevise, at De ejer denne MGN adresse.</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
+        <source>The KackCoin address the message was signed with</source>
         <translation>Beskeden er underskrevet med denne MGN adresse</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MagnaCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
         <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige MGN adresse.</translation>
     </message>
     <message>
@@ -3243,7 +3243,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>MGN kerne</translation>
     </message>
     <message>
@@ -3259,7 +3259,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>DASH "core" udviklerne</translation>
     </message>
     <message>
-        <source>The MagnaCoin Core developers</source>
+        <source>The KackCoin Core developers</source>
         <translation>MGN "core" udviklerne</translation>
     </message>
     <message>
@@ -3861,8 +3861,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Forbind til den opgivne adresse og lyt efter JSON-.RPC forbindelser. Brug [host]:port notation for IPv6. Der kan indsættes flere linier (standard: Forbind til alle interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. MagnaCoin Core is probably already running.</source>
-        <translation>Kan ikke låse datamappen %s. MagnaCoin Core kører sandsynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s. KackCoin Core is probably already running.</source>
+        <translation>Kan ikke låse datamappen %s. KackCoin Core kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4058,7 +4058,7 @@ For eksempel: alertnotify=Echo %% | mail - s "MGN ALARM!" e-mail@administrator.d
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. MagnaCoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. KackCoin Core is probably already running.</source>
         <translation>Det var ikke muligt at forbinde %s på denne computer. MGN kører sandsynligvis allerede.</translation>
     </message>
     <message>
@@ -4086,8 +4086,8 @@ For eksempel: alertnotify=Echo %% | mail - s "MGN ALARM!" e-mail@administrator.d
         <translation>Advarsel! -paytxfee er sat meget højt. Det er dette gebyr De kommer til at betale for transaktionen, hvis De gennemfører. </translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong MagnaCoin Core will not work properly.</source>
-        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil MagnaCoin Core ikke fungere ordentligt.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong KackCoin Core will not work properly.</source>
+        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil KackCoin Core ikke fungere ordentligt.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4234,8 +4234,8 @@ For eksempel: alertnotify=Echo %% | mail - s "MGN ALARM!" e-mail@administrator.d
         <translation>Copyright (C) 2014-%i The Dash Core Developers </translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The MagnaCoin Core Developers</source>
-        <translation>Copyright (C) 2015-%i The MagnaCoin Core Developers</translation>
+        <source>Copyright (C) 2015-%i The KackCoin Core Developers</source>
+        <translation>Copyright (C) 2015-%i The KackCoin Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4306,8 +4306,8 @@ For eksempel: alertnotify=Echo %% | mail - s "MGN ALARM!" e-mail@administrator.d
         <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen er beskadiget</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of MagnaCoin Core</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af MagnaCoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of KackCoin Core</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af KackCoin Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4418,8 +4418,8 @@ For eksempel: alertnotify=Echo %% | mail - s "MGN ALARM!" e-mail@administrator.d
         <translation>Info:</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. MagnaCoin Core is shutting down.</source>
-        <translation>Initiering af sanitetskontrollen fejlede. MagnaCoin Core lukker ned. </translation>
+        <source>Initialization sanity check failed. KackCoin Core is shutting down.</source>
+        <translation>Initiering af sanitetskontrollen fejlede. KackCoin Core lukker ned. </translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4994,8 +4994,8 @@ For eksempel: alertnotify=Echo %% | mail - s "MGN ALARM!" e-mail@administrator.d
         <translation>Tegnebogen er låst</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart MagnaCoin Core to complete</source>
-        <translation>Tegnebogen måtte genskrives. Genstart MagnaCoin Core for at gøre færdig</translation>
+        <source>Wallet needed to be rewritten: restart KackCoin Core to complete</source>
+        <translation>Tegnebogen måtte genskrives. Genstart KackCoin Core for at gøre færdig</translation>
     </message>
     <message>
         <source>Wallet options:</source>

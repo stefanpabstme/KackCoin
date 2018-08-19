@@ -1,4 +1,4 @@
-MagnaCoin Core integration/staging repository
+KackCoin Core integration/staging repository
 =====================================
 
 

@@ -13,7 +13,7 @@
  * for both mgnd and mgn-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("MagnaCoin Core");
+const std::string CLIENT_NAME("KackCoin Core");
 
 /**
  * Client version number

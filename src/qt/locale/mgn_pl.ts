@@ -227,7 +227,7 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres MGN jest w twoim posiadaniu</translation>
     </message>
     <message>
@@ -518,11 +518,11 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
-        <source>Send coins to a MagnaCoin address</source>
+        <source>Send coins to a KackCoin address</source>
         <translation>Wyślij monety do adresu MGN</translation>
     </message>
     <message>
@@ -538,11 +538,11 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About MagnaCoin Core</source>
+        <source>&amp;About KackCoin Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about MagnaCoin Core</source>
+        <source>Show information about KackCoin Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
@@ -550,11 +550,11 @@
         <translation>Modyfikuj opcje konfiguracji MGN</translation>
     </message>
     <message>
-        <source>Sign messages with your MagnaCoin addresses to prove you own them</source>
+        <source>Sign messages with your KackCoin addresses to prove you own them</source>
         <translation>Zatwierdź wiadomość z twoimi adresami MGN, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MagnaCoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
         <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu MGN</translation>
     </message>
     <message>
@@ -594,11 +594,11 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the MagnaCoin Core help message to get a list with possible MGN command-line options</source>
+        <source>Show the KackCoin Core help message to get a list with possible MGN command-line options</source>
         <translation>Pokaż wiadomość pomocy rdzenia MGN, aby dostać listę możliwych opcji MGN command-line</translation>
     </message>
     <message>
-        <source>MagnaCoin Core client</source>
+        <source>KackCoin Core client</source>
         <translation>Rdzeń MGN klient</translation>
     </message>
     <message>
@@ -916,7 +916,7 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>
@@ -931,7 +931,7 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
@@ -1458,7 +1458,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations </translation>
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a MagnaCoin address (e.g. %1)</source>
+        <source>Enter a KackCoin address (e.g. %1)</source>
         <translation>Wprowadź adres MGN (np. %1)</translation>
     </message>
     <message>
@@ -1897,7 +1897,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations </translation>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres MGN jest w twoim posiadaniu</translation>
     </message>
     <message>
@@ -1932,7 +1932,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations </translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MagnaCoin Core</source>
+        <source>KackCoin Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>

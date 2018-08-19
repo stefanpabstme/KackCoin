@@ -62,11 +62,11 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dies sind ihre MGN-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie MGN überweisen.</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Dies sind ihre MGN-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
         <translation>&amp;BIP 38 Verschlüsselung</translation>
     </message>
     <message>
-        <source>Enter a MagnaCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Gib eine MGN Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
     </message>
     <message>
@@ -247,7 +247,7 @@
         <translation>Adresse:</translation>
     </message>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>MGN Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
@@ -279,7 +279,7 @@
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>Signiere die Nachricht um zu Beweisen, dass du diese MGN Adresse besitzt</translation>
     </message>
     <message>
@@ -538,11 +538,11 @@
         <translation>Registerkartenleiste</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a MagnaCoin address</source>
+        <source>Send coins to a KackCoin address</source>
         <translation>An eine MGN-Adresse überweisen</translation>
     </message>
     <message>
@@ -558,23 +558,23 @@
         <translation>Masternodes durchsuchen</translation>
     </message>
     <message>
-        <source>&amp;About MagnaCoin Core</source>
-        <translation>Über.MagnaCoin Core</translation>
+        <source>&amp;About KackCoin Core</source>
+        <translation>Über.KackCoin Core</translation>
     </message>
     <message>
-        <source>Show information about MagnaCoin Core</source>
-        <translation>Zeigt Informationen über MagnaCoin Core</translation>
+        <source>Show information about KackCoin Core</source>
+        <translation>Zeigt Informationen über KackCoin Core</translation>
     </message>
     <message>
         <source>Modify configuration options for MGN</source>
         <translation>Konfiguration von MGN verändern</translation>
     </message>
     <message>
-        <source>Sign messages with your MagnaCoin addresses to prove you own them</source>
+        <source>Sign messages with your KackCoin addresses to prove you own them</source>
         <translation>Unterschreibt eine Nachricht mit Ihrer MGN-Adresse und beweist, dass sie Ihnen gehört</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MagnaCoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
         <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten MGN-Adresse signiert wurde</translation>
     </message>
     <message>
@@ -586,8 +586,8 @@
         <translation>MultiSend Einstellungen</translation>
     </message>
     <message>
-        <source>MagnaCoin Core client</source>
-        <translation>MagnaCoin Core Client</translation>
+        <source>KackCoin Core client</source>
+        <translation>KackCoin Core Client</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -881,7 +881,7 @@ Adresse: %4</translation>
         <translation>Zahlungsadresse bearbeiten</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid MagnaCoin address.</source>
+        <source>The entered address "%1" is not a valid KackCoin address.</source>
         <translation>Die eingegebene Adresse "%1" ist keine gültige MGN-Adresse.</translation>
     </message>
     <message>
@@ -927,16 +927,16 @@ Adresse: %4</translation>
         <translation>Version</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-Bit)</translation>
     </message>
     <message>
-        <source>About MagnaCoin Core</source>
-        <translation>Über MagnaCoin Core</translation>
+        <source>About KackCoin Core</source>
+        <translation>Über KackCoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -970,16 +970,16 @@ Adresse: %4</translation>
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Welcome to MagnaCoin Core.</source>
-        <translation>Willkommen zu MagnaCoin Core.</translation>
+        <source>Welcome to KackCoin Core.</source>
+        <translation>Willkommen zu KackCoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where MagnaCoin Core will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie MagnaCoin Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <source>As this is the first time the program is launched, you can choose where KackCoin Core will store its data.</source>
+        <translation>Da dies das erste Mal ist, dass Sie KackCoin Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>MagnaCoin Core will download and store a copy of the MGN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>MagnaCoin Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <source>KackCoin Core will download and store a copy of the MGN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>KackCoin Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -990,8 +990,8 @@ Adresse: %4</translation>
         <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1361,7 +1361,7 @@ Adresse: %4</translation>
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a MagnaCoin address (e.g. %1)</source>
+        <source>Enter a KackCoin address (e.g. %1)</source>
         <translation>MGN-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
@@ -1734,7 +1734,7 @@ Adresse: %4</translation>
         <translation>E&amp;mpfänger:</translation>
     </message>
     <message>
-        <source>The MagnaCoin address to send the payment to</source>
+        <source>The KackCoin address to send the payment to</source>
         <translation>MGN-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
@@ -1801,8 +1801,8 @@ Adresse: %4</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>MagnaCoin Core is shutting down...</source>
-        <translation>MagnaCoin Core wird beendet...</translation>
+        <source>KackCoin Core is shutting down...</source>
+        <translation>KackCoin Core wird beendet...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1816,7 +1816,7 @@ Adresse: %4</translation>
         <translation>Nachricht &amp;signieren</translation>
     </message>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
+        <source>The KackCoin address to sign the message with</source>
         <translation>MGN Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
@@ -1844,7 +1844,7 @@ Adresse: %4</translation>
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
+        <source>Sign the message to prove you own this KackCoin address</source>
         <translation>Signiere die Nachricht um zu Beweisen, dass du diese MGN Adresse besitzt</translation>
     </message>
     <message>
@@ -1875,8 +1875,8 @@ Adresse: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1891,8 +1891,8 @@ Adresse: %4</translation>
         <translation>Die Dash Core Entwickler</translation>
     </message>
     <message>
-        <source>The MagnaCoin Core developers</source>
-        <translation>Die MagnaCoin Core Entwickler</translation>
+        <source>The KackCoin Core developers</source>
+        <translation>Die KackCoin Core Entwickler</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2609,8 +2609,8 @@ Adresse: %4</translation>
         <translation>Wallet gesperrt.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart MagnaCoin Core to complete</source>
-        <translation>Wallet musste neu geschrieben werden: Bitte MagnaCoin Core neu starten</translation>
+        <source>Wallet needed to be rewritten: restart KackCoin Core to complete</source>
+        <translation>Wallet musste neu geschrieben werden: Bitte KackCoin Core neu starten</translation>
     </message>
     <message>
         <source>Wallet options:</source>

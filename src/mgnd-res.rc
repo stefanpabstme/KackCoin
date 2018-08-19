@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "MagnaCoin"
-            VALUE "FileDescription",    "mgnd (OSS daemon/client for MagnaCoin)"
+            VALUE "CompanyName",        "KackCoin"
+            VALUE "FileDescription",    "mgnd (OSS daemon/client for KackCoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "mgnd"
             VALUE "LegalCopyright",     COPYRIGHT_STR

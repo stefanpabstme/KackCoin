@@ -62,12 +62,12 @@
         <translation>Receiving addresses</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your MagnaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
-        <source>These are your MagnaCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your MagnaCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <source>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Encrypt</translation>
     </message>
     <message>
-        <source>Enter a MagnaCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Enter a MagnaCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
+        <source>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Address:</translation>
     </message>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
-        <translation>The MagnaCoin address to sign the message with</translation>
+        <source>The KackCoin address to sign the message with</source>
+        <translation>The KackCoin address to sign the message with</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copy the current signature to the system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
-        <translation>Sign the message to prove you own this MagnaCoin address</translation>
+        <source>Sign the message to prove you own this KackCoin address</source>
+        <translation>Sign the message to prove you own this KackCoin address</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
-        <translation>The MagnaCoin address the message was signed with</translation>
+        <source>The KackCoin address the message was signed with</source>
+        <translation>The KackCoin address the message was signed with</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MagnaCoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified MagnaCoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified KackCoin address</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,12 +602,12 @@
         <translation>Tabs toolbar</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a MagnaCoin address</source>
-        <translation>Send coins to a MagnaCoin address</translation>
+        <source>Send coins to a KackCoin address</source>
+        <translation>Send coins to a KackCoin address</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and MGN: URIs)</source>
@@ -622,24 +622,24 @@
         <translation>Browse masternodes</translation>
     </message>
     <message>
-        <source>&amp;About MagnaCoin Core</source>
-        <translation>&amp;About MagnaCoin Core</translation>
+        <source>&amp;About KackCoin Core</source>
+        <translation>&amp;About KackCoin Core</translation>
     </message>
     <message>
-        <source>Show information about MagnaCoin Core</source>
-        <translation>Show information about MagnaCoin Core</translation>
+        <source>Show information about KackCoin Core</source>
+        <translation>Show information about KackCoin Core</translation>
     </message>
     <message>
         <source>Modify configuration options for MGN</source>
         <translation>Modify configuration options for MGN</translation>
     </message>
     <message>
-        <source>Sign messages with your MagnaCoin addresses to prove you own them</source>
-        <translation>Sign messages with your MagnaCoin addresses to prove you own them</translation>
+        <source>Sign messages with your KackCoin addresses to prove you own them</source>
+        <translation>Sign messages with your KackCoin addresses to prove you own them</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MagnaCoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified MagnaCoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified KackCoin addresses</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -682,12 +682,12 @@
         <translation>Block explorer window</translation>
     </message>
     <message>
-        <source>Show the MagnaCoin Core help message to get a list with possible MGN command-line options</source>
-        <translation>Show the MagnaCoin Core help message to get a list with possible MGN command-line options</translation>
+        <source>Show the KackCoin Core help message to get a list with possible MGN command-line options</source>
+        <translation>Show the KackCoin Core help message to get a list with possible MGN command-line options</translation>
     </message>
     <message>
-        <source>MagnaCoin Core client</source>
-        <translation>MagnaCoin Core client</translation>
+        <source>KackCoin Core client</source>
+        <translation>KackCoin Core client</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to MGN network</source>
@@ -1138,8 +1138,8 @@ Address: %4
         <translation>Edit sending address</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid MagnaCoin address.</source>
-        <translation>The entered address "%1" is not a valid MagnaCoin address.</translation>
+        <source>The entered address "%1" is not a valid KackCoin address.</source>
+        <translation>The entered address "%1" is not a valid KackCoin address.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1184,16 +1184,16 @@ Address: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About MagnaCoin Core</source>
-        <translation>About MagnaCoin Core</translation>
+        <source>About KackCoin Core</source>
+        <translation>About KackCoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1239,16 +1239,16 @@ Address: %4
         <translation>Welcome</translation>
     </message>
     <message>
-        <source>Welcome to MagnaCoin Core.</source>
-        <translation>Welcome to MagnaCoin Core.</translation>
+        <source>Welcome to KackCoin Core.</source>
+        <translation>Welcome to KackCoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where MagnaCoin Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where MagnaCoin Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where KackCoin Core will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where KackCoin Core will store its data.</translation>
     </message>
     <message>
-        <source>MagnaCoin Core will download and store a copy of the MGN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>MagnaCoin Core will download and store a copy of the MGN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>KackCoin Core will download and store a copy of the MGN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>KackCoin Core will download and store a copy of the MGN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1259,8 +1259,8 @@ Address: %4
         <translation>Use a custom data directory:</translation>
     </message>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1401,12 +1401,12 @@ Address: %4
         <translation>Enter Address to Send to</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other MagnaCoin addresses after it matures.
-To Add: enter percentage to give and MagnaCoin address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other KackCoin addresses after it matures.
+To Add: enter percentage to give and KackCoin address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other MagnaCoin addresses after it matures.
-To Add: enter percentage to give and MagnaCoin address to add to the MultiSend vector.
+        <translation>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other KackCoin addresses after it matures.
+To Add: enter percentage to give and KackCoin address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</translation>
     </message>
@@ -2096,8 +2096,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Cannot start MGN: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid MagnaCoin address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid MagnaCoin address or malformed URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid KackCoin address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid KackCoin address or malformed URI parameters.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2182,8 +2182,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Amount</translation>
     </message>
     <message>
-        <source>Enter a MagnaCoin address (e.g. %1)</source>
-        <translation>Enter a MagnaCoin address (e.g. %1)</translation>
+        <source>Enter a KackCoin address (e.g. %1)</source>
+        <translation>Enter a KackCoin address (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2952,8 +2952,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>anonymous funds</translation>
     </message>
     <message>
-        <source>Warning: Invalid MagnaCoin address</source>
-        <translation>Warning: Invalid MagnaCoin address</translation>
+        <source>Warning: Invalid KackCoin address</source>
+        <translation>Warning: Invalid KackCoin address</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3059,8 +3059,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Pay &amp;To:</translation>
     </message>
     <message>
-        <source>The MagnaCoin address to send the payment to</source>
-        <translation>The MagnaCoin address to send the payment to</translation>
+        <source>The KackCoin address to send the payment to</source>
+        <translation>The KackCoin address to send the payment to</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3126,8 +3126,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>MagnaCoin Core is shutting down...</source>
-        <translation>MagnaCoin Core is shutting down...</translation>
+        <source>KackCoin Core is shutting down...</source>
+        <translation>KackCoin Core is shutting down...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3149,8 +3149,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
-        <source>The MagnaCoin address to sign the message with</source>
-        <translation>The MagnaCoin address to sign the message with</translation>
+        <source>The KackCoin address to sign the message with</source>
+        <translation>The KackCoin address to sign the message with</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3181,16 +3181,16 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Copy the current signature to the system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MagnaCoin address</source>
-        <translation>Sign the message to prove you own this MagnaCoin address</translation>
+        <source>Sign the message to prove you own this KackCoin address</source>
+        <translation>Sign the message to prove you own this KackCoin address</translation>
     </message>
     <message>
-        <source>The MagnaCoin address the message was signed with</source>
-        <translation>The MagnaCoin address the message was signed with</translation>
+        <source>The KackCoin address the message was signed with</source>
+        <translation>The KackCoin address the message was signed with</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MagnaCoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified MagnaCoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified KackCoin address</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3276,8 +3276,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MagnaCoin Core</source>
-        <translation>MagnaCoin Core</translation>
+        <source>KackCoin Core</source>
+        <translation>KackCoin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3292,8 +3292,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>The Dash Core developers</translation>
     </message>
     <message>
-        <source>The MagnaCoin Core developers</source>
-        <translation>The MagnaCoin Core developers</translation>
+        <source>The KackCoin Core developers</source>
+        <translation>The KackCoin Core developers</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3910,8 +3910,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. MagnaCoin Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. MagnaCoin Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. KackCoin Core is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. KackCoin Core is probably already running.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4106,8 +4106,8 @@ for example: alertnotify=echo %%s | mail -s "MGN Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. MagnaCoin Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. MagnaCoin Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. KackCoin Core is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. KackCoin Core is probably already running.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -4134,8 +4134,8 @@ for example: alertnotify=echo %%s | mail -s "MGN Alert" admin@foo.com
         <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong MagnaCoin Core will not work properly.</source>
-        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong MagnaCoin Core will not work properly.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong KackCoin Core will not work properly.</source>
+        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong KackCoin Core will not work properly.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4282,8 +4282,8 @@ for example: alertnotify=echo %%s | mail -s "MGN Alert" admin@foo.com
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The MagnaCoin Core Developers</source>
-        <translation>Copyright (C) 2015-%i The MagnaCoin Core Developers</translation>
+        <source>Copyright (C) 2015-%i The KackCoin Core Developers</source>
+        <translation>Copyright (C) 2015-%i The KackCoin Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4354,8 +4354,8 @@ for example: alertnotify=echo %%s | mail -s "MGN Alert" admin@foo.com
         <translation>Error loading wallet.dat: Wallet corrupted</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of MagnaCoin Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of MagnaCoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of KackCoin Core</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of KackCoin Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4466,8 +4466,8 @@ for example: alertnotify=echo %%s | mail -s "MGN Alert" admin@foo.com
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. MagnaCoin Core is shutting down.</source>
-        <translation>Initialization sanity check failed. MagnaCoin Core is shutting down.</translation>
+        <source>Initialization sanity check failed. KackCoin Core is shutting down.</source>
+        <translation>Initialization sanity check failed. KackCoin Core is shutting down.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5086,8 +5086,8 @@ for example: alertnotify=echo %%s | mail -s "MGN Alert" admin@foo.com
         <translation>Wallet is locked.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart MagnaCoin Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart MagnaCoin Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart KackCoin Core to complete</source>
+        <translation>Wallet needed to be rewritten: restart KackCoin Core to complete</translation>
     </message>
     <message>
         <source>Wallet options:</source>
