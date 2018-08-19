@@ -127,24 +127,24 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "November 2017, The Guardian: MPs launch inquiry into household finances as £200bn debt pile looms.";
+        const char* pszTimestamp = "Just another shitcoin based on a MagnaCoin (MGN) fork. Started the chain on 8/19/2018";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 250 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04d10e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce121ba32607d573b8810c02c0582aed05b4deb9c4b77b26d92428c61256cd42774babea0a073b2ed0c9") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("043e2f2c92032a34149a03058afdc9b3652075b840869a5aa1285cdf03bb33d4f5bc64afb79a9b368d31c1fc70919188875aacae549eff0c66d7f27b5b7a24234b") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1510111545;
+        genesis.nTime = 1534703400;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 135707;
+        genesis.nNonce = 143565;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x73044c14bb0bdd46e329d928f9bcdda38d0f19deabd254ab38f80d414eda750c"));
-        assert(genesis.hashMerkleRoot == uint256("0x2880f5a37bbb7f23d32fe20e07b0f9284a151f1c388cd908cad2dde695e6f13b"));
+        assert(hashGenesisBlock == uint256("0x000009040cfdc877d8d7ee4460443736cad45e2812242a1702539bfbb3c36211"));
+        assert(genesis.hashMerkleRoot == uint256("0xc32c8145548484563e08c5a08801c8d2995bfdbddd13b2ff67eb75aaba53dd08"));
 
         vSeeds.push_back(CDNSSeedData("216.189.15.127", "216.189.15.127"));
         vSeeds.push_back(CDNSSeedData("216.189.15.128", "216.189.15.128"));
@@ -214,11 +214,11 @@ public:
         nMaxMoneyOut = 20000000 * COIN;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1510111545;
-        genesis.nNonce = 3306754;
+        genesis.nTime = 1534703401;
+        genesis.nNonce = 249098;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0xdc54cc002ab18116490d958402dcc0dab947a23eb039af5b4980adc43a9422dd"));
+        assert(hashGenesisBlock == uint256("0x00000f5e576f81dc8fd32a3889f843f10c1a7465d7328a53587a3e523b1ed61f"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -278,13 +278,13 @@ public:
         nTargetTimespan = 24 * 60 * 60; // KCK: 1 day
         nTargetSpacing = 1 * 60;        // KCK: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1510111545;
+        genesis.nTime = 1534703402;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 578428;
+        genesis.nNonce = 1990217;
         nDefaultPort = 59957;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x599405cf4689ad699c814298f9ee6d17a753c14c9a16f2e257bcdcc7ce872cd8"));
+        assert(hashGenesisBlock == uint256("0x000004fe2688ef8a61ee04bb2752d128afadbe7c172c7a4889bd784c5d3f1301"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
