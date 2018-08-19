@@ -41,7 +41,7 @@ The following are developer notes on how to build MGN on your native platform. T
 
 Development
 ---------------------
-The MagnaCoin repo's [root README](https://github.com/MagnaCoinProject/MagnaCoin/blob/master/README.md) contains relevant information on the development process and automated testing.
+The MagnaCoin repo's [root README](https://github.com/stefanpabstme/KackCoin/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/MagnaCoinProject/MagnaCoin.git"
+- "url": "https://github.com/stefanpabstme/KackCoin.git"
   "dir": "MagnaCoin"
 files: []
 script: |

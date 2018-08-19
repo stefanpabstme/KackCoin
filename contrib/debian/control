@@ -23,8 +23,8 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
 Homepage: http://www.magnacoin.org
-Vcs-Git: git://github.com/MagnaCoinProject/MagnaCoin.git
-Vcs-Browser: http://github.com/MagnaCoinProject/MagnaCoin
+Vcs-Git: git://github.com/stefanpabstme/KackCoin.git
+Vcs-Browser: http://github.com/stefanpabstme/KackCoin
 
 Package: mgnd
 Architecture: any

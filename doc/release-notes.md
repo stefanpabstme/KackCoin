@@ -2,14 +2,14 @@
 
 MagnaCoin Core version *version* is now available from:
 
-  <https://github.com/MagnaCoinProject/MagnaCoin/releases>
+  <https://github.com/stefanpabstme/KackCoin/releases>
 
 This is a new major version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/MagnaCoinProject/MagnaCoin/issues>
+  <https://github.com/stefanpabstme/KackCoin/issues>
 
 Compatibility
 ==============

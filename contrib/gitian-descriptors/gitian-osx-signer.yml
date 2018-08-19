@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/MagnaCoinProject/MagnaCoin-detached-sigs.git"
+- "url": "https://github.com/stefanpabstme/KackCoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "mgn-osx-unsigned.tar.gz"
