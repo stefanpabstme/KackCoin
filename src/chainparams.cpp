@@ -171,7 +171,7 @@ public:
 
         nPoolMaxTransactions = 3;
 
-        strSporkKey = "8823f2b48d99f15a0bceedbe9b05a06d028aca587c3a0f0ee4a7dff6b0859181c1225b5842a17e8bb74758b8f1757a82025631f3276bec0734c6f61de71c1e4d28";
+        strSporkKey = "040178266298dca353bcdd2188d639cfcf357b7325c827ad15ce414e66d76e1f97447336be56d7746a302e848c404a11f66170beac50bb26a71b13b97d14252713";
         strObfuscationPoolDummyAddress = "D87q2gC9j6nNrnzCsg4aY6bHMLsT9nUhEw";
         nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
     }
@@ -242,7 +242,7 @@ public:
         fTestnetToBeDeprecatedFieldRPC = true;
 
         nPoolMaxTransactions = 2;
-        strSporkKey = "08888C2F50F90267E64FACC65BFDC9D0EB147D090872FB97ABAE92E9A36E6CA60983E28E741F8E7277B11A7479B626AC115BA31463AC48178A5075C5A9319D4A38";
+        strSporkKey = "046545092d451bd9d09519ddb7851969f29532e1f2ff4c542b71dd18fa8e63e88fe36c89287edb2ed43bb50374f6bf21876a34803da0e23818d8279dc168e609d9";
         strObfuscationPoolDummyAddress = "y57cqfGRkekRyDRNeJiLtYVEbvhXrNbmox";
         nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT
     }
