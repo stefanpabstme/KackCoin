@@ -173,7 +173,7 @@ public:
 
         strSporkKey = "040178266298dca353bcdd2188d639cfcf357b7325c827ad15ce414e66d76e1f97447336be56d7746a302e848c404a11f66170beac50bb26a71b13b97d14252713";
         strObfuscationPoolDummyAddress = "D87q2gC9j6nNrnzCsg4aY6bHMLsT9nUhEw";
-        nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
+        nStartMasternodePayments = 1534703400; //Wed, 25 Jun 2014 20:36:16 GMT
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const
