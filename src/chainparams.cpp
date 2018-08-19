@@ -53,32 +53,28 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 //    timestamp before)
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
-    boost::assign::map_list_of(1, uint256("0000032cf7b0f96e8622b933d941cdb566aff2d31efae04a208c7b93efa8151b"))
-        (83, uint256("0000005ecd70de9f5ea22851431e66aa0e282ffa2a1ff84052c9ad25208e9bd6"))
-        (101, uint256("00000098d77c8543cc72bb11274116fb347fab2c873aa772fc7d490c078f1730"))
-        (131, uint256("0000003203102a0d9872499507a9a6acc84881808c5a796bffc30d969ba05a67"))
-        (147, uint256("0000002d230219ca04d6871c20537ca4ec0e986e2a8e8ec27ef0291dc75ce2e4"));
+    boost::assign::map_list_of(0, uint256("000009040cfdc877d8d7ee4460443736cad45e2812242a1702539bfbb3c36211"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1511243246, // * UNIX timestamp of last checkpoint block
-    153,    // * total number of transactions between genesis and last checkpoint
+    1534703400, // * UNIX timestamp of last checkpoint block
+    0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-    boost::assign::map_list_of(0, uint256("0x001"));
+    boost::assign::map_list_of(0, uint256("0x00000f5e576f81dc8fd32a3889f843f10c1a7465d7328a53587a3e523b1ed61f"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1510111545,
+    1534703401,
     0,
     250};
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
-    boost::assign::map_list_of(0, uint256("0x001"));
+    boost::assign::map_list_of(0, uint256("0x000004fe2688ef8a61ee04bb2752d128afadbe7c172c7a4889bd784c5d3f1301"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1510111545,
+    1534703402,
     0,
     100};
 
