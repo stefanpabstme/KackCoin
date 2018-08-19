@@ -6,7 +6,7 @@
 #define BITCOIN_NETBASE_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/mgn-config.h"
+#include "config/kck-config.h"
 #endif
 
 #include "compat.h"

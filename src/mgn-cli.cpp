@@ -27,7 +27,7 @@ std::string HelpMessageCli()
     string strUsage;
     strUsage += HelpMessageGroup(_("Options:"));
     strUsage += HelpMessageOpt("-?", _("This help message"));
-    strUsage += HelpMessageOpt("-conf=<file>", strprintf(_("Specify configuration file (default: %s)"), "mgn.conf"));
+    strUsage += HelpMessageOpt("-conf=<file>", strprintf(_("Specify configuration file (default: %s)"), "kck.conf"));
     strUsage += HelpMessageOpt("-datadir=<dir>", _("Specify data directory"));
     strUsage += HelpMessageOpt("-testnet", _("Use the test network"));
     strUsage += HelpMessageOpt("-regtest", _("Enter regression test mode, which uses a special chain in which blocks can be "
@@ -71,9 +71,9 @@ static bool AppInitRPC(int argc, char* argv[])
         std::string strUsage = _("KackCoin Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  mgn-cli [options] <command> [params]  " + _("Send command to KackCoin Core") + "\n" +
-                        "  mgn-cli [options] help                " + _("List commands") + "\n" +
-                        "  mgn-cli [options] help <command>      " + _("Get help for a command") + "\n";
+                        "  kck-cli [options] <command> [params]  " + _("Send command to KackCoin Core") + "\n" +
+                        "  kck-cli [options] help                " + _("List commands") + "\n" +
+                        "  kck-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessageCli();
         }

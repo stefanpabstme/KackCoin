@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wählen Sie die Adresse aus, an die Sie MGN überweisen möchten</translation>
+        <translation>Wählen Sie die Adresse aus, an die Sie KCK überweisen möchten</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wählen Sie die Adresse aus, über die Sie MGN empfangen wollen</translation>
+        <translation>Wählen Sie die Adresse aus, über die Sie KCK empfangen wollen</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre MGN-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie MGN überweisen.</translation>
+        <translation>Dies sind ihre KCK-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie KCK überweisen.</translation>
     </message>
     <message>
         <source>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre MGN-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <translation>Dies sind ihre KCK-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>MGN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MGNs from being stolen by malware infecting your computer.</source>
-        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer MGNs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
+        <source>KCK will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KCKs from being stolen by malware infecting your computer.</source>
+        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer KCKs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Sind Sie sich sicher, dass Sie ihre Wallet verschlüsseln möchten?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MGN&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre MGNs verlieren&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KCK&lt;/b&gt;!</source>
+        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre KCKs verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -240,7 +240,7 @@
     </message>
     <message>
         <source>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Gib eine MGN Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
+        <translation>Gib eine KCK Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
     </message>
     <message>
         <source>Address:</source>
@@ -248,7 +248,7 @@
     </message>
     <message>
         <source>The KackCoin address to sign the message with</source>
-        <translation>MGN Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <translation>KCK Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -280,7 +280,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this KackCoin address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese MGN Adresse besitzt</translation>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese KCK Adresse besitzt</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -543,11 +543,11 @@
     </message>
     <message>
         <source>Send coins to a KackCoin address</source>
-        <translation>An eine MGN-Adresse überweisen</translation>
+        <translation>An eine KCK-Adresse überweisen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and MGN: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und MGN: URIs)</translation>
+        <source>Request payments (generates QR codes and KCK: URIs)</source>
+        <translation>Zahlung anfordern (QR-Code Generierung und KCK: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -566,16 +566,16 @@
         <translation>Zeigt Informationen über KackCoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for MGN</source>
-        <translation>Konfiguration von MGN verändern</translation>
+        <source>Modify configuration options for KCK</source>
+        <translation>Konfiguration von KCK verändern</translation>
     </message>
     <message>
         <source>Sign messages with your KackCoin addresses to prove you own them</source>
-        <translation>Unterschreibt eine Nachricht mit Ihrer MGN-Adresse und beweist, dass sie Ihnen gehört</translation>
+        <translation>Unterschreibt eine Nachricht mit Ihrer KCK-Adresse und beweist, dass sie Ihnen gehört</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
-        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten MGN-Adresse signiert wurde</translation>
+        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten KCK-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -700,8 +700,8 @@ Adresse: %4</translation>
         <translation>Suche</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (mgn.conf).</source>
-        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "mgn.conf" Konfigurationsdatei hinzufügen.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (kck.conf).</source>
+        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "kck.conf" Konfigurationsdatei hinzufügen.</translation>
     </message>
 </context>
 <context>
@@ -882,7 +882,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid KackCoin address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige MGN-Adresse.</translation>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige KCK-Adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -978,7 +978,7 @@ Adresse: %4</translation>
         <translation>Da dies das erste Mal ist, dass Sie KackCoin Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>KackCoin Core will download and store a copy of the MGN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>KackCoin Core will download and store a copy of the KCK block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>KackCoin Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
@@ -1228,8 +1228,8 @@ Adresse: %4</translation>
         <translation>Verschleierter Betrag:</translation>
     </message>
     <message>
-        <source>0 MGN / 0 Rounds</source>
-        <translation>0 MGN / 0 Runden</translation>
+        <source>0 KCK / 0 Rounds</source>
+        <translation>0 KCK / 0 Runden</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -1362,7 +1362,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Enter a KackCoin address (e.g. %1)</source>
-        <translation>MGN-Adresse eingeben (z.B. %1)</translation>
+        <translation>KCK-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1548,7 +1548,7 @@ Adresse: %4</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>MGNs überweisen</translation>
+        <translation>KCKs überweisen</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1623,8 +1623,8 @@ Adresse: %4</translation>
         <translation>UTXO Größe:</translation>
     </message>
     <message>
-        <source>0 MGN</source>
-        <translation>0 MGN</translation>
+        <source>0 KCK</source>
+        <translation>0 KCK</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -1735,7 +1735,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>The KackCoin address to send the payment to</source>
-        <translation>MGN-Adresse, an die überwiesen werden soll</translation>
+        <translation>KCK-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1774,8 +1774,8 @@ Adresse: %4</translation>
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the MGN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MGN network.</source>
-        <translation>Eine an die MGN-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das MGN-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the KCK: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the KCK network.</source>
+        <translation>Eine an die KCK-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das KCK-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1817,7 +1817,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>The KackCoin address to sign the message with</source>
-        <translation>MGN Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <translation>KCK Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1845,7 +1845,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this KackCoin address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese MGN Adresse besitzt</translation>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese KCK Adresse besitzt</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2050,7 +2050,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Erzeugte MGNs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine MGNs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
+        <translation>Erzeugte KCKs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine KCKs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2412,11 +2412,11 @@ Adresse: %4</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>MGNs überweisen</translation>
+        <translation>KCKs überweisen</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 MGN.</source>
-        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 MGN begrenzt.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 KCK.</source>
+        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 KCK begrenzt.</translation>
     </message>
 </context>
 <context>
@@ -2459,7 +2459,7 @@ Adresse: %4</translation>
     </message>
 </context>
 <context>
-    <name>mgn-core</name>
+    <name>kck-core</name>
     <message>
         <source>Error</source>
         <translation>Fehler</translation>

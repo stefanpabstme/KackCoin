@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: mgnd.service
-Upstart: mgnd.conf
-OpenRC:  mgnd.openrc
-         mgnd.openrcconf
-CentOS:  mgnd.init
+SystemD: kckd.service
+Upstart: kckd.conf
+OpenRC:  kckd.openrc
+         kckd.openrcconf
+CentOS:  kckd.init
 
 have been made available to assist packagers in creating node packages here.
 

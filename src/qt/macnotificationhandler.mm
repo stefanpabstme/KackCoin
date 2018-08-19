@@ -15,7 +15,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.mgn.mgn-qt";
+        return @"io.kck.kck-qt";
     } else {
         return [self __bundleIdentifier];
     }

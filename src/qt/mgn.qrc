@@ -37,12 +37,12 @@
         <file alias="tx_input">res/icons/tx_input.png</file>
         <file alias="tx_output">res/icons/tx_output.png</file>
         <file alias="tx_inout">res/icons/tx_inout.png</file>
-        <file alias="unit_mgn">res/icons/unit_mgn.png</file>
-        <file alias="unit_mmgn">res/icons/unit_mmgn.png</file>
-        <file alias="unit_umgn">res/icons/unit_umgn.png</file>
-        <file alias="unit_tmgn">res/icons/unit_tmgn.png</file>
-        <file alias="unit_tmmgn">res/icons/unit_tmmgn.png</file>
-        <file alias="unit_tumgn">res/icons/unit_tumgn.png</file>
+        <file alias="unit_kck">res/icons/unit_kck.png</file>
+        <file alias="unit_mkck">res/icons/unit_mkck.png</file>
+        <file alias="unit_ukck">res/icons/unit_ukck.png</file>
+        <file alias="unit_tkck">res/icons/unit_tkck.png</file>
+        <file alias="unit_tmkck">res/icons/unit_tmkck.png</file>
+        <file alias="unit_tukck">res/icons/unit_tukck.png</file>
         <file alias="lock_closed">res/icons/lock_closed.png</file>
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>
@@ -58,7 +58,7 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="mgn_logo_horizontal">res/images/mgn_logo_horizontal.png</file>
+        <file alias="kck_logo_horizontal">res/images/kck_logo_horizontal.png</file>
         <file alias="downArrow">res/images/downArrow.png</file>
         <file alias="downArrow_small">res/images/downArrow_small.png</file>
         <file alias="upArrow_small">res/images/upArrow_small.png</file>

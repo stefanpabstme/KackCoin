@@ -1,7 +1,7 @@
 <!--- Remove this description and sections that do not apply -->
 
 This issue tracker is only for technical issues related to KackCoin Core.
-General MGN questions and/or support requests and are best directed to the [MGN Slack](http://mgn.slack.com).
+General KCK questions and/or support requests and are best directed to the [KCK Slack](http://kck.slack.com).
 
 ### Describe the issue
 

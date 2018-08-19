@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>mgn-qt</string>
+  <string>kck-qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.mgn.mgn-qt</string>
+  <string>io.kck.kck-qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.mgn.KackCoinPayment</string>
+      <string>io.kck.KackCoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>mgn</string>
+        <string>kck</string>
       </array>
     </dict>
   </array>
@@ -52,7 +52,7 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.mgn.paymentrequest</string>
+      <string>io.kck.paymentrequest</string>
       <key>UTTypeDescription</key>
       <string>KackCoin payment request</string>
       <key>UTTypeConformsTo</key>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-mgn-payment-request</string>
+        <string>application/x-kck-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>mgnpaymentrequest</string>
+          <string>kckpaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.mgn.paymentrequest</string>
+        <string>io.kck.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

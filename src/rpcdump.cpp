@@ -84,10 +84,10 @@ Value importprivkey(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 3)
         throw runtime_error(
-            "importprivkey \"mgnprivkey\" ( \"label\" rescan )\n"
+            "importprivkey \"kckprivkey\" ( \"label\" rescan )\n"
             "\nAdds a private key (as returned by dumpprivkey) to your wallet.\n"
             "\nArguments:\n"
-            "1. \"mgnprivkey\"   (string, required) The private key (see dumpprivkey)\n"
+            "1. \"kckprivkey\"   (string, required) The private key (see dumpprivkey)\n"
             "2. \"label\"            (string, optional, default=\"\") An optional label\n"
             "3. rescan               (boolean, optional, default=true) Rescan the wallet for transactions\n"
             "\nNote: This call can take minutes to complete if rescan is true.\n"
@@ -309,11 +309,11 @@ Value dumpprivkey(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
-            "dumpprivkey \"mgnaddress\"\n"
-            "\nReveals the private key corresponding to 'mgnaddress'.\n"
+            "dumpprivkey \"kckaddress\"\n"
+            "\nReveals the private key corresponding to 'kckaddress'.\n"
             "Then the importprivkey can be used with this output\n"
             "\nArguments:\n"
-            "1. \"mgnaddress\"   (string, required) The KackCoin address for the private key\n"
+            "1. \"kckaddress\"   (string, required) The KackCoin address for the private key\n"
             "\nResult:\n"
             "\"key\"                (string) The private key\n"
             "\nExamples:\n" +
@@ -367,7 +367,7 @@ Value dumpwallet(const Array& params, bool fHelp)
     std::sort(vKeyBirth.begin(), vKeyBirth.end());
 
     // produce output
-    file << strprintf("# Wallet dump created by MGN %s (%s)\n", CLIENT_BUILD, CLIENT_DATE);
+    file << strprintf("# Wallet dump created by KCK %s (%s)\n", CLIENT_BUILD, CLIENT_DATE);
     file << strprintf("# * Created on %s\n", EncodeDumpTime(GetTime()));
     file << strprintf("# * Best block at time of backup was %i (%s),\n", chainActive.Height(), chainActive.Tip()->GetBlockHash().ToString());
     file << strprintf("#   mined on %s\n", EncodeDumpTime(chainActive.Tip()->GetBlockTime()));
@@ -397,10 +397,10 @@ Value bip38encrypt(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 2)
         throw runtime_error(
-            "bip38encrypt \"mgnaddress\"\n"
-            "\nEncrypts a private key corresponding to 'mgnaddress'.\n"
+            "bip38encrypt \"kckaddress\"\n"
+            "\nEncrypts a private key corresponding to 'kckaddress'.\n"
             "\nArguments:\n"
-            "1. \"mgnaddress\"   (string, required) The KackCoin address for the private key (you must hold the key already)\n"
+            "1. \"kckaddress\"   (string, required) The KackCoin address for the private key (you must hold the key already)\n"
             "2. \"passphrase\"   (string, required) The passphrase you want the private key to be encrypted with - Valid special chars: !#$%&'()*+,-./:;<=>?`{|}~ \n"
             "\nResult:\n"
             "\"key\"                (string) The encrypted private key\n"
@@ -435,7 +435,7 @@ Value bip38decrypt(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 2)
         throw runtime_error(
-            "bip38decrypt \"mgnaddress\"\n"
+            "bip38decrypt \"kckaddress\"\n"
             "\nDecrypts and then imports password protected private key.\n"
             "\nArguments:\n"
             "1. \"passphrase\"   (string, required) The passphrase you want the private key to be encrypted with\n"

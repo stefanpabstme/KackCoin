@@ -64,11 +64,11 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += mgnd
+  bin_PROGRAMS += kckd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += mgn-cli mgn-tx
+  bin_PROGRAMS += kck-cli kck-tx
 endif
 
 .PHONY: FORCE
@@ -180,7 +180,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between mgnd and mgn-qt
+# server: shared between kckd and kck-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -224,7 +224,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between mgnd and mgn-qt, but only linked
+# wallet: shared between kckd and kck-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -295,7 +295,7 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-# common: shared between mgnd, and mgn-qt and non-server tools
+# common: shared between kckd, and kck-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -351,7 +351,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between mgn-cli and mgn-qt
+# cli: shared between kck-cli and kck-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -361,7 +361,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-mgnd_LDADD = \
+kckd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -372,40 +372,40 @@ mgnd_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-mgnd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+kckd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-mgnd_LDADD += libbitcoin_wallet.a
+kckd_LDADD += libbitcoin_wallet.a
 endif
-mgnd_SOURCES = mgnd.cpp
+kckd_SOURCES = kckd.cpp
 #
 
 if TARGET_WINDOWS
-mgnd_SOURCES += mgnd-res.rc
+kckd_SOURCES += kckd-res.rc
 endif
 
-mgnd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-mgnd_CPPFLAGS = $(BITCOIN_INCLUDES)
-mgnd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+kckd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+kckd_CPPFLAGS = $(BITCOIN_INCLUDES)
+kckd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# mgn-cli binary #
-mgn_cli_LDADD = \
+# kck-cli binary #
+kck_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-mgn_cli_SOURCES = \
-  mgn-cli.cpp
+kck_cli_SOURCES = \
+  kck-cli.cpp
 
-mgn_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+kck_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
-# mgn-tx binary #
-mgn_tx_LDADD = \
+# kck-tx binary #
+kck_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -414,15 +414,15 @@ mgn_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-mgn_tx_SOURCES = mgn-tx.cpp
-mgn_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+kck_tx_SOURCES = kck-tx.cpp
+kck_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-mgn_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+kck_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-mgn_cli_SOURCES += mgn-cli-res.rc
+kck_cli_SOURCES += kck-cli-res.rc
 endif
-mgn_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+kck_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

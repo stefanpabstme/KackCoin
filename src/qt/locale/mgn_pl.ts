@@ -148,8 +148,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MGN&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE MGN!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KCK&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE KCK!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -228,7 +228,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this KackCoin address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres MGN jest w twoim posiadaniu</translation>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres KCK jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -523,11 +523,11 @@
     </message>
     <message>
         <source>Send coins to a KackCoin address</source>
-        <translation>Wyślij monety do adresu MGN</translation>
+        <translation>Wyślij monety do adresu KCK</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and MGN: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i MGN:URI)</translation>
+        <source>Request payments (generates QR codes and KCK: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i KCK:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -546,16 +546,16 @@
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for MGN</source>
-        <translation>Modyfikuj opcje konfiguracji MGN</translation>
+        <source>Modify configuration options for KCK</source>
+        <translation>Modyfikuj opcje konfiguracji KCK</translation>
     </message>
     <message>
         <source>Sign messages with your KackCoin addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami MGN, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <translation>Zatwierdź wiadomość z twoimi adresami KCK, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu MGN</translation>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu KCK</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a MGN: URI or payment request</source>
-        <translation>Otwórz MGN: URI i żądanie zapłaty</translation>
+        <source>Open a KCK: URI or payment request</source>
+        <translation>Otwórz KCK: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the KackCoin Core help message to get a list with possible MGN command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia MGN, aby dostać listę możliwych opcji MGN command-line</translation>
+        <source>Show the KackCoin Core help message to get a list with possible KCK command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia KCK, aby dostać listę możliwych opcji KCK command-line</translation>
     </message>
     <message>
         <source>KackCoin Core client</source>
-        <translation>Rdzeń MGN klient</translation>
+        <translation>Rdzeń KCK klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1192,16 +1192,16 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start MGN after logging in to the system.</source>
-        <translation>Automatycznie uruchom MGN po zalogowaniu do systemu</translation>
+        <source>Automatically start KCK after logging in to the system.</source>
+        <translation>Automatycznie uruchom KCK po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start MGN on system login</source>
-        <translation>&amp;Uruchom MGN podczas logowania do systemu</translation>
+        <source>&amp;Start KCK on system login</source>
+        <translation>&amp;Uruchom KCK podczas logowania do systemu</translation>
     </message>
     <message>
-        <source>Amount of MGN to keep anonymized</source>
-        <translation>Liczba MGN do anonimizacji</translation>
+        <source>Amount of KCK to keep anonymized</source>
+        <translation>Liczba KCK do anonimizacji</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1220,18 +1220,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting MGN.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie MGN</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting KCK.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie KCK</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/MGN-project/MGN-project-translations</source>
+https://www.transifex.com/KCK-project/KCK-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/MGN-project/MGN-project-translations </translation>
+https://www.transifex.com/KCK-project/KCK-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the MGN network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią MGN poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the KCK network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią KCK poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1373,7 +1373,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations </translation>
         <translation>Status:</translation>
     </message>
     <message>
-        <source>0 MGN / 0 Rounds</source>
+        <source>0 KCK / 0 Rounds</source>
         <translation>0 OIVX / 0 Rund</translation>
     </message>
     <message>
@@ -1459,7 +1459,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations </translation>
     </message>
     <message>
         <source>Enter a KackCoin address (e.g. %1)</source>
-        <translation>Wprowadź adres MGN (np. %1)</translation>
+        <translation>Wprowadź adres KCK (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1898,7 +1898,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations </translation>
     </message>
     <message>
         <source>Sign the message to prove you own this KackCoin address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres MGN jest w twoim posiadaniu</translation>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres KCK jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -2024,7 +2024,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations </translation>
     </message>
     </context>
 <context>
-    <name>mgn-core</name>
+    <name>kck-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

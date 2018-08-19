@@ -49,7 +49,7 @@ static void noui_InitMessage(const std::string& message)
 
 void noui_connect()
 {
-    // Connect mgnd signal handlers
+    // Connect kckd signal handlers
     uiInterface.ThreadSafeMessageBox.connect(noui_ThreadSafeMessageBox);
     uiInterface.InitMessage.connect(noui_InitMessage);
 }

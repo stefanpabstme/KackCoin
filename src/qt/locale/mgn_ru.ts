@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши MGN-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <translation>Это ваши KCK-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
         <source>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши MGN-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <translation>Это ваши KCK-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>MGN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MGNs from being stolen by malware infecting your computer.</source>
-        <translation>MGN сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши MGN от кражи с использованием вредоносного ПО.</translation>
+        <source>KCK will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KCKs from being stolen by malware infecting your computer.</source>
+        <translation>KCK сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши KCK от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MGN&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ MGN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KCK&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ KCK&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -236,7 +236,7 @@
     </message>
     <message>
         <source>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Введите MGN адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
+        <translation>Введите KCK адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
@@ -244,7 +244,7 @@
     </message>
     <message>
         <source>The KackCoin address to sign the message with</source>
-        <translation>Адрес MGN для подписи сообщения с помощью</translation>
+        <translation>Адрес KCK для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -276,7 +276,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this KackCoin address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес MGN</translation>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес KCK</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -300,11 +300,11 @@
     </message>
     <message>
         <source>The KackCoin address the message was signed with</source>
-        <translation>Адрес MGN, которым подписано сообщение</translation>
+        <translation>Адрес KCK, которым подписано сообщение</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным MGN адресом </translation>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным KCK адресом </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -599,11 +599,11 @@
     </message>
     <message>
         <source>Send coins to a KackCoin address</source>
-        <translation>Отправить монеты на MGN адрес</translation>
+        <translation>Отправить монеты на KCK адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and MGN: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и MGN: URI)</translation>
+        <source>Request payments (generates QR codes and KCK: URIs)</source>
+        <translation>Запросить платежи (генерирует QR-код и KCK: URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -622,16 +622,16 @@
         <translation>Показать информацию о KackCoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for MGN</source>
-        <translation>Изменение параметров конфигурации MGN</translation>
+        <source>Modify configuration options for KCK</source>
+        <translation>Изменение параметров конфигурации KCK</translation>
     </message>
     <message>
         <source>Sign messages with your KackCoin addresses to prove you own them</source>
-        <translation>Подписывайте сообщения вашими MGN адресами, чтобы доказать, что вы их владелец</translation>
+        <translation>Подписывайте сообщения вашими KCK адресами, чтобы доказать, что вы их владелец</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
-        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным MGN адресом </translation>
+        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным KCK адресом </translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -662,8 +662,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a MGN: URI or payment request</source>
-        <translation>Открыть MGN: URI или запрос платежа</translation>
+        <source>Open a KCK: URI or payment request</source>
+        <translation>Открыть KCK: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -674,16 +674,16 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the KackCoin Core help message to get a list with possible MGN command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды MGN</translation>
+        <source>Show the KackCoin Core help message to get a list with possible KCK command-line options</source>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды KCK</translation>
     </message>
     <message>
         <source>KackCoin Core client</source>
         <translation>Клиент KackCoin Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to MGN network</source>
-        <translation><numerusform>%n активное подключение к сети MGN</numerusform><numerusform>%n активных подключений к сети MGN</numerusform><numerusform>%n активных подключений к сети MGN</numerusform><numerusform>%n активных подключений к сети MGN</numerusform></translation>
+        <source>%n active connection(s) to KCK network</source>
+        <translation><numerusform>%n активное подключение к сети KCK</numerusform><numerusform>%n активных подключений к сети KCK</numerusform><numerusform>%n активных подключений к сети KCK</numerusform><numerusform>%n активных подключений к сети KCK</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -829,8 +829,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (mgn.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (mgn.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (kck.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (kck.conf).</translation>
     </message>
 </context>
 <context>
@@ -1131,7 +1131,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid KackCoin address.</source>
-        <translation>Введенный адрес "%1" не является MGN адресом.</translation>
+        <translation>Введенный адрес "%1" не является KCK адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1239,8 +1239,8 @@ MultiSend: %1</translation>
         <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные KackCoin Core.</translation>
     </message>
     <message>
-        <source>KackCoin Core will download and store a copy of the MGN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>KackCoin Core загрузит и сохранит копию цепочки блоков MGN. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>KackCoin Core will download and store a copy of the KCK block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>KackCoin Core загрузит и сохранит копию цепочки блоков KCK. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1397,8 +1397,8 @@ MultiSend: %1</translation>
 To Add: enter percentage to give and KackCoin address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие MGN адреса.
-Для добавления: введите передаваемый процент и MGN адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие KCK адреса.
+Для добавления: введите передаваемый процент и KCK адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1536,48 +1536,48 @@ Please check the address and try again.</source>
         <translation>Выберите уровень конфиденциальности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 MGN</source>
-        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 MGN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 KCK</source>
+        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 KCK</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 MGN</source>
-        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 MGN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 KCK</source>
+        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 KCK</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Используйте 16 разных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 MGN to anonymize 10000 MGN</source>
-        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 MGN для анонимизации 10000 MGN</translation>
+        <source>This option is the quickest and will cost about ~0.025 KCK to anonymize 10000 KCK</source>
+        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 KCK для анонимизации 10000 KCK</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 MGN to anonymize 10000 MGN</source>
-        <translation>Это средний по скорости вариант и он будет стоить около 0.05 MGN для анонимизации 10000 MGN</translation>
+        <source>This option is moderately fast and will cost about 0.05 KCK to anonymize 10000 KCK</source>
+        <translation>Это средний по скорости вариант и он будет стоить около 0.05 KCK для анонимизации 10000 KCK</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Это самый медленный и безопасный вариант. Максимальная анонимность стоит</translation>
     </message>
     <message>
-        <source>0.1 MGN per 10000 MGN you anonymize.</source>
-        <translation>0.1 MGN за 10000 MGN которые вы собираетесь анонимизировать.</translation>
+        <source>0.1 KCK per 10000 KCK you anonymize.</source>
+        <translation>0.1 KCK за 10000 KCK которые вы собираетесь анонимизировать.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Настройка Перемешивания</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening MGN's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки MGN.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening KCK's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки KCK.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening MGN's configuration screen.</source>
-        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки MGN.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening KCK's configuration screen.</source>
+        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки KCK.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening MGN's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки MGN.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening KCK's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки KCK.</translation>
     </message>
 </context>
 <context>
@@ -1638,8 +1638,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the MGN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт MGN через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the KCK client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт KCK через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1658,12 +1658,12 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start MGN after logging in to the system.</source>
-        <translation>Автоматически запускать MGN после входа в систему.</translation>
+        <source>Automatically start KCK after logging in to the system.</source>
+        <translation>Автоматически запускать KCK после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start MGN on system login</source>
-        <translation>&amp;Запускать MGN при входе в систему</translation>
+        <source>&amp;Start KCK on system login</source>
+        <translation>&amp;Запускать KCK при входе в систему</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1678,8 +1678,8 @@ Please check the address and try again.</source>
         <translation>При достижении этого значения Перемешивание будет отключено.</translation>
     </message>
     <message>
-        <source>Amount of MGN to keep anonymized</source>
-        <translation>Количество MGN, держащихся анонимизированными</translation>
+        <source>Amount of KCK to keep anonymized</source>
+        <translation>Количество KCK, держащихся анонимизированными</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1706,22 +1706,22 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting MGN.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска MGN.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting KCK.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска KCK.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/MGN-project/MGN-project-translations</source>
+https://www.transifex.com/KCK-project/KCK-project-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/MGN-project/MGN-project-translations</translation>
+https://www.transifex.com/KCK-project/KCK-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the MGN network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети MGN через SOCKS5 прокси.</translation>
+        <source>Connect to the KCK network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети KCK через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1875,8 +1875,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Балансы</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MGN network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью MGN после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the KCK network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью KCK после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1919,8 +1919,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Баланс Обфускации</translation>
     </message>
     <message>
-        <source>0 MGN / 0 Rounds</source>
-        <translation>0 MGN / 0 Циклов</translation>
+        <source>0 KCK / 0 Rounds</source>
+        <translation>0 KCK / 0 Циклов</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2072,12 +2072,12 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start MGN: click-to-pay handler</source>
-        <translation>Не удалось запустить MGN: обработчик click-to-pay </translation>
+        <source>Cannot start KCK: click-to-pay handler</source>
+        <translation>Не удалось запустить KCK: обработчик click-to-pay </translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid KackCoin address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный MGN адрес или неверные параметеры URI.</translation>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный KCK адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2163,7 +2163,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
     </message>
     <message>
         <source>Enter a KackCoin address (e.g. %1)</source>
-        <translation>Введите адрес MGN (например %1)</translation>
+        <translation>Введите адрес KCK (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2296,8 +2296,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the MGN debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки MGN. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the KCK debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки KCK. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2457,8 +2457,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the MGN RPC console.</source>
-        <translation>Добро пожаловать в окружение MGN RPC.</translation>
+        <source>Welcome to the KCK RPC console.</source>
+        <translation>Добро пожаловать в окружение KCK RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2677,8 +2677,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 MGN</source>
-        <translation>0 MGN</translation>
+        <source>0 KCK</source>
+        <translation>0 KCK</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2762,7 +2762,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
     </message>
     <message>
         <source>Warning: Invalid KackCoin address</source>
-        <translation>Предупреждение: неправильный MGN адрес</translation>
+        <translation>Предупреждение: неправильный KCK адрес</translation>
     </message>
     <message>
         <source>and SwiftTX</source>
@@ -2827,7 +2827,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>The KackCoin address to sign the message with</source>
-        <translation>Адрес MGN для подписи сообщения с помощью</translation>
+        <translation>Адрес KCK для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2851,15 +2851,15 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this KackCoin address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес MGN</translation>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес KCK</translation>
     </message>
     <message>
         <source>The KackCoin address the message was signed with</source>
-        <translation>Адрес MGN, которым подписано сообщение</translation>
+        <translation>Адрес KCK, которым подписано сообщение</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным MGN адресом </translation>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным KCK адресом </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -3173,7 +3173,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
     </message>
     </context>
 <context>
-    <name>mgn-core</name>
+    <name>kck-core</name>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>Для SwiftTX требуется как минимум 6 подтверждений, Вам нужно подождать несколько минут и попытаться снова.</translation>

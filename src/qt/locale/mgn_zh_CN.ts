@@ -164,6 +164,6 @@
     </message>
     </context>
 <context>
-    <name>mgn-core</name>
+    <name>kck-core</name>
     </context>
 </TS>

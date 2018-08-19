@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw MGNadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
+        <translation>Dit zijn uw KCKadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
     </message>
     <message>
         <source>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw MGNadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <translation>Dit zijn uw KCKadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>MGN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MGNs from being stolen by malware infecting your computer.</source>
-        <translation>MGN zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw MGNs stelen.</translation>
+        <source>KCK will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KCKs from being stolen by malware infecting your computer.</source>
+        <translation>KCK zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw KCKs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MGN&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW MGN VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KCK&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW KCK VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -232,7 +232,7 @@
     </message>
     <message>
         <source>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een MGN adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
+        <translation>Voer een KCK adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
     </message>
     <message>
         <source>Address:</source>
@@ -240,7 +240,7 @@
     </message>
     <message>
         <source>The KackCoin address to sign the message with</source>
-        <translation>Het MGN adres om het bericht met te ondertekenen</translation>
+        <translation>Het KCK adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -272,7 +272,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this KackCoin address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het MGN adres bezit</translation>
+        <translation>Onderteken het bericht om te bewijzen dat u het KCK adres bezit</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -296,11 +296,11 @@
     </message>
     <message>
         <source>The KackCoin address the message was signed with</source>
-        <translation>Het MGN adres waarmee het bericht was ondertekend</translation>
+        <translation>Het KCK adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde MGN adres</translation>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde KCK adres</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -591,15 +591,15 @@
     </message>
     <message>
         <source>KackCoin Core</source>
-        <translation>MGN Kern</translation>
+        <translation>KCK Kern</translation>
     </message>
     <message>
         <source>Send coins to a KackCoin address</source>
-        <translation>Verstuur munten naar een MGN adres</translation>
+        <translation>Verstuur munten naar een KCK adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and MGN: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en MGN: URI's)</translation>
+        <source>Request payments (generates QR codes and KCK: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en KCK: URI's)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -611,23 +611,23 @@
     </message>
     <message>
         <source>&amp;About KackCoin Core</source>
-        <translation>&amp;Over MGN Kern</translation>
+        <translation>&amp;Over KCK Kern</translation>
     </message>
     <message>
         <source>Show information about KackCoin Core</source>
-        <translation>Toon informatie over MGN Kern</translation>
+        <translation>Toon informatie over KCK Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for MGN</source>
-        <translation>Wijzig MGN configuratie opties</translation>
+        <source>Modify configuration options for KCK</source>
+        <translation>Wijzig KCK configuratie opties</translation>
     </message>
     <message>
         <source>Sign messages with your KackCoin addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw MGN adressen om te bewijzen dat u deze adressen bezit</translation>
+        <translation>Onderteken berichten met uw KCK adressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
-        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde MGN adressen</translation>
+        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde KCK adressen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -757,8 +757,8 @@
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (mgn.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (mgn.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (kck.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (kck.conf).</translation>
     </message>
 </context>
 <context>
@@ -943,7 +943,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid KackCoin address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig MGN adres.</translation>
+        <translation>Het ingevoerde adres: "%1" is geen geldig KCK adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -965,7 +965,7 @@
     </message>
     <message>
         <source>KackCoin Core</source>
-        <translation>MGN Kern</translation>
+        <translation>KCK Kern</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -980,7 +980,7 @@
     </message>
     <message>
         <source>KackCoin Core</source>
-        <translation>MGN Kern</translation>
+        <translation>KCK Kern</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1434,7 +1434,7 @@
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>The KackCoin address to sign the message with</source>
-        <translation>Het MGN adres om het bericht met te ondertekenen</translation>
+        <translation>Het KCK adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1466,15 +1466,15 @@
     </message>
     <message>
         <source>Sign the message to prove you own this KackCoin address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het MGN adres bezit</translation>
+        <translation>Onderteken het bericht om te bewijzen dat u het KCK adres bezit</translation>
     </message>
     <message>
         <source>The KackCoin address the message was signed with</source>
-        <translation>Het MGN adres waarmee het bericht was ondertekend</translation>
+        <translation>Het KCK adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde MGN adres</translation>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde KCK adres</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1513,7 +1513,7 @@
     <name>SplashScreen</name>
     <message>
         <source>KackCoin Core</source>
-        <translation>MGN Kern</translation>
+        <translation>KCK Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1660,7 +1660,7 @@
     </message>
     </context>
 <context>
-    <name>mgn-core</name>
+    <name>kck-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

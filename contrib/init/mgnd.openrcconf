@@ -1,25 +1,25 @@
-# /etc/conf.d/mgnd: config file for /etc/init.d/mgnd
+# /etc/conf.d/kckd: config file for /etc/init.d/kckd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/mgn/mgn.conf"
+#BITCOIND_CONFIGFILE="/etc/kck/kck.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/mgnd"
+#BITCOIND_PIDDIR="/var/run/kckd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/mgnd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/kckd.pid"
 
-# Where to write mgnd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/mgnd"
+# Where to write kckd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/kckd"
 
-# User and group to own mgnd process
-#BITCOIND_USER="mgn"
-#BITCOIND_GROUP="mgn"
+# User and group to own kckd process
+#BITCOIND_USER="kck"
+#BITCOIND_GROUP="kck"
 
-# Path to mgnd executable
-#BITCOIND_BIN="/usr/bin/mgnd"
+# Path to kckd executable
+#BITCOIND_BIN="/usr/bin/kckd"
 
-# Nice value to run mgnd under
+# Nice value to run kckd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

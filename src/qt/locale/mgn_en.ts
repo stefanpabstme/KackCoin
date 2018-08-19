@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>MGN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MGNs from being stolen by malware infecting your computer.</source>
+        <source>KCK will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KCKs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MGN&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KCK&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -781,7 +781,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and MGN: URIs)</source>
+        <source>Request payments (generates QR codes and KCK: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -806,7 +806,7 @@
     </message>
     <message>
         <location line="+10"/>
-        <source>Modify configuration options for MGN</source>
+        <source>Modify configuration options for KCK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -856,7 +856,7 @@
     </message>
     <message>
         <location line="+10"/>
-        <source>Open a MGN: URI or payment request</source>
+        <source>Open a KCK: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -871,7 +871,7 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the KackCoin Core help message to get a list with possible MGN command-line options</source>
+        <source>Show the KackCoin Core help message to get a list with possible KCK command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -881,7 +881,7 @@
     </message>
     <message numerus="yes">
         <location line="+190"/>
-        <source>%n active connection(s) to MGN network</source>
+        <source>%n active connection(s) to KCK network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -1077,7 +1077,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+473"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (mgn.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (kck.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1591,7 +1591,7 @@ Address: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>KackCoin Core will download and store a copy of the MGN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>KackCoin Core will download and store a copy of the KCK block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1948,12 +1948,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 10000 MGN</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 KCK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 10000 MGN</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 KCK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1963,12 +1963,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 MGN to anonymize 10000 MGN</source>
+        <source>This option is the quickest and will cost about ~0.025 KCK to anonymize 10000 KCK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 MGN to anonymize 10000 MGN</source>
+        <source>This option is moderately fast and will cost about 0.05 KCK to anonymize 10000 KCK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1978,7 +1978,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 MGN per 10000 MGN you anonymize.</source>
+        <source>0.1 KCK per 10000 KCK you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1990,17 +1990,17 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="-27"/>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening MGN&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening KCK&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening MGN&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening KCK&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening MGN&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening KCK&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2076,7 +2076,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+33"/>
-        <source>Automatically open the MGN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the KCK client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2101,12 +2101,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="-179"/>
-        <source>Automatically start MGN after logging in to the system.</source>
+        <source>Automatically start KCK after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start MGN on system login</source>
+        <source>&amp;Start KCK on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2126,7 +2126,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+15"/>
-        <source>Amount of MGN to keep anonymized</source>
+        <source>Amount of KCK to keep anonymized</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2161,13 +2161,13 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+192"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting MGN.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting KCK.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/MGN-project/MGN-project-translations</source>
+https://www.transifex.com/KCK-project/KCK-project-translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2177,7 +2177,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</source>
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the MGN network through a SOCKS5 proxy.</source>
+        <source>Connect to the KCK network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2374,7 +2374,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</source>
         <location line="+10"/>
         <location line="+1015"/>
         <location line="+93"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MGN network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the KCK network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2429,7 +2429,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</source>
     </message>
     <message>
         <location line="+27"/>
-        <source>0 MGN / 0 Rounds</source>
+        <source>0 KCK / 0 Rounds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2661,7 +2661,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</source>
     </message>
     <message>
         <location line="-108"/>
-        <source>Cannot start MGN: click-to-pay handler</source>
+        <source>Cannot start KCK: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2969,7 +2969,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</source>
     </message>
     <message>
         <location line="+79"/>
-        <source>Open the MGN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the KCK debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3181,7 +3181,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</source>
     </message>
     <message>
         <location line="-36"/>
-        <source>Welcome to the MGN RPC console.</source>
+        <source>Welcome to the KCK RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3272,12 +3272,12 @@ https://www.transifex.com/MGN-project/MGN-project-translations</source>
     </message>
     <message>
         <location line="-37"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MGN network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the KCK network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the MGN network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the KCK network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3570,7 +3570,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>0 MGN</source>
+        <source>0 KCK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3630,18 +3630,18 @@ https://www.transifex.com/MGN-project/MGN-project-translations</source>
     </message>
     <message>
         <location line="-165"/>
-        <source>If the custom fee is set to 1000 uMGNs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uMGNs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uMGNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uKCKs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uKCKs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uKCKs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uMGNs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uMGNs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uMGNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uKCKs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uKCKs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uKCKs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for MGN transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for KCK transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3972,7 +3972,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</source>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the MGN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MGN network.</source>
+        <source>A message that was attached to the KCK: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the KCK network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4935,7 +4935,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</source>
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 MGN.</source>
+        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 KCK.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4988,9 +4988,9 @@ https://www.transifex.com/MGN-project/MGN-project-translations</source>
     </message>
 </context>
 <context>
-    <name>mgn-core</name>
+    <name>kck-core</name>
     <message>
-        <location filename="../MGNstrings.cpp" line="+12"/>
+        <location filename="../KCKstrings.cpp" line="+12"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -5046,7 +5046,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Disable all MGN specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <source>Disable all KCK specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5101,12 +5101,12 @@ https://www.transifex.com/MGN-project/MGN-project-translations</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in MGN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in KCK/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in MGN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in KCK/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5236,16 +5236,16 @@ https://www.transifex.com/MGN-project/MGN-project-translations</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>To use MGNd, or the -server option to MGN-qt, you must set an rpcpassword in the configuration file:
+        <source>To use KCKd, or the -server option to KCK-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=MGNrpc
+rpcuser=KCKrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;MGN Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;KCK Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -5261,12 +5261,12 @@ for example: alertnotify=echo %%s | mail -s &quot;MGN Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 MGN.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 KCK.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 MGN.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 KCK.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5626,7 +5626,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MGN Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Fee (in MGN/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in KCK/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5841,7 +5841,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MGN Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+53"/>
-        <source>Keep N MGN anonymized (default: %u)</source>
+        <source>Keep N KCK anonymized (default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

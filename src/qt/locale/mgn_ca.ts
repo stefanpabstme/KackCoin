@@ -1200,7 +1200,7 @@
     </message>
     </context>
 <context>
-    <name>mgn-core</name>
+    <name>kck-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

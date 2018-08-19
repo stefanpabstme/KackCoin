@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="MGNSupply">
+    <widget class="QLabel" name="KCKSupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -197,7 +197,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="mgndemand">
+    <widget class="QLabel" name="kckdemand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuyMGN">
+    <widget class="QPushButton" name="BuyKCK">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -442,10 +442,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy MGN</string>
+      <string>Buy KCK</string>
      </property>
      <property name="icon">
-      <iconset resource="../mgn.qrc">
+      <iconset resource="../kck.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>MGN</string>
+      <string>KCK</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,10 +1704,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>MGN</string>
+      <string>KCK</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputMGN">
+    <widget class="QLineEdit" name="UnitsInputKCK">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellMGNBTN">
+    <widget class="QPushButton" name="SellKCKBTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1751,10 +1751,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Sell MGN</string>
+      <string>Sell KCK</string>
      </property>
      <property name="icon">
-      <iconset resource="../mgn">
+      <iconset resource="../kck">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -1777,12 +1777,12 @@
          </font>
         </property>
         <property name="text">
-         <string>MGN Available:</string>
+         <string>KCK Available:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="MGNAvailableLabel">
+       <widget class="QLabel" name="KCKAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelMGN">
+       <widget class="QLabel" name="labelKCK">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>MGN</string>
+         <string>KCK</string>
         </property>
        </widget>
       </item>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="MGNBalanceLabel">
+    <widget class="QLabel" name="KCKBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>MGN Balance:</string>
+      <string>KCK Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="MGNAvailableLabel_2">
+    <widget class="QLabel" name="KCKAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>MGN Available:</string>
+      <string>KCK Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2832,10 +2832,10 @@
       </font>
      </property>
      <property name="text">
-      <string>MGN Pending:</string>
+      <string>KCK Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="MGNPendingLabel">
+    <widget class="QLabel" name="KCKPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex MGN Deposit Address:</string>
+      <string>Bittrex KCK Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">
@@ -2944,7 +2944,7 @@
       <string>Generate KackCoin Deposit Address</string>
      </property>
      <property name="icon">
-      <iconset resource="../mgn.qrc">
+      <iconset resource="../kck.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3206,7 +3206,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="../mgn.qrc">:/icons/transaction_1</pixmap>
+       <pixmap resource="../kck.qrc">:/icons/transaction_1</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -3253,7 +3253,7 @@
       <string>Update API Keys</string>
      </property>
      <property name="icon">
-      <iconset resource="../mgn.qrc">
+      <iconset resource="../kck.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3408,7 +3408,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="../mgn.qrc"/>
+  <include location="../kck.qrc"/>
  </resources>
  <connections/>
 </ui>

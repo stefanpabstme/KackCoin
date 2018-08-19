@@ -3,37 +3,37 @@ KackCoin Core
 
 Setup
 ---------------------
-[KackCoin Core](http://stefanpabst.me/wallet) is the original MGN client and it builds the backbone of the network. However, it downloads and stores the entire history of MGN transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[KackCoin Core](http://stefanpabst.me/wallet) is the original KCK client and it builds the backbone of the network. However, it downloads and stores the entire history of KCK transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run MGN on your native platform.
+The following are some helpful notes on how to run KCK on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/mgn-qt (GUI, 32-bit) or bin/32/mgnd (headless, 32-bit)
-- bin/64/mgn-qt (GUI, 64-bit) or bin/64/mgnd (headless, 64-bit)
+- bin/32/kck-qt (GUI, 32-bit) or bin/32/kckd (headless, 32-bit)
+- bin/64/kck-qt (GUI, 64-bit) or bin/64/kckd (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run mgn-qt.exe.
+Unpack the files into a directory, and then run kck-qt.exe.
 
 ### OSX
 
-Drag mgn-qt to your applications folder, and then run mgn-qt.
+Drag kck-qt to your applications folder, and then run kck-qt.
 
 ### Need Help?
 
-* See the documentation at the [MGN Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [KCK Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [MGN Forum](http://forum.stefanpabst.me/).
-* Join one of our Slack groups [MGN Slack Groups](https://stefanpabst.me/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [KCK Forum](http://forum.stefanpabst.me/).
+* Join one of our Slack groups [KCK Slack Groups](https://stefanpabst.me/slack-logins/).
 
 Building
 ---------------------
-The following are developer notes on how to build MGN on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build KCK on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -55,8 +55,8 @@ The KackCoin repo's [root README](https://github.com/stefanpabstme/KackCoin/blob
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [MGN](http://forum.stefanpabst.me/) forum.
-* Join the [MGN-Dev](https://mgn-dev.slack.com/) Slack group ([Sign-Up](https://mgn-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [KCK](http://forum.stefanpabst.me/) forum.
+* Join the [KCK-Dev](https://kck-dev.slack.com/) Slack group ([Sign-Up](https://kck-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

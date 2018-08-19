@@ -1,4 +1,4 @@
-Source: mgn
+Source: kck
 Section: utils
 Priority: optional
 Maintainer: Jonas Smedegaard <dr@jones.dk> ***TODO***
@@ -26,7 +26,7 @@ Homepage: http://www.stefanpabst.me
 Vcs-Git: git://github.com/stefanpabstme/KackCoin.git
 Vcs-Browser: http://github.com/stefanpabstme/KackCoin
 
-Package: mgnd
+Package: kckd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
@@ -39,10 +39,10 @@ Description: peer-to-peer network based digital currency - daemon
  Full transaction history is stored locally at each client.  This
  requires 1+ GB of space, slowly growing.
  .
- This package provides the daemon, mgnd, and the CLI tool
- mgn-cli to interact with the daemon.
+ This package provides the daemon, kckd, and the CLI tool
+ kck-cli to interact with the daemon.
 
-Package: mgn-qt
+Package: kck-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
@@ -55,4 +55,4 @@ Description: peer-to-peer network based digital currency - Qt GUI
  Full transaction history is stored locally at each client.  This
  requires 1+ GB of space, slowly growing.
  .
- This package provides mgn-qt, a GUI for KackCoin based on Qt.
+ This package provides kck-qt, a GUI for KackCoin based on Qt.

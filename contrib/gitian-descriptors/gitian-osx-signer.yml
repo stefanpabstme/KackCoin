@@ -1,5 +1,5 @@
 ---
-name: "mgn-dmg-signer"
+name: "kck-dmg-signer"
 suites:
 - "trusty"
 architectures:
@@ -10,7 +10,7 @@ remotes:
 - "url": "https://github.com/stefanpabstme/KackCoin-detached-sigs.git"
   "dir": "signature"
 files:
-- "mgn-osx-unsigned.tar.gz"
+- "kck-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -27,11 +27,11 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=mgn-osx-unsigned.tar.gz
-  SIGNED=mgn-osx-signed.dmg
+  UNSIGNED=kck-osx-unsigned.tar.gz
+  SIGNED=kck-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"
   ./detached-sig-apply.sh ${UNSIGNED} signature/osx
-  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "mgn-qt" -no-pad -r -dir-mode 0755 -apple -o uncompressed.dmg signed-app
+  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "kck-qt" -no-pad -r -dir-mode 0755 -apple -o uncompressed.dmg signed-app
   ${WRAP_DIR}/dmg dmg uncompressed.dmg ${OUTDIR}/${SIGNED}

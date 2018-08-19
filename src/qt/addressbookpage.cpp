@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/mgn-config.h"
+#include "config/kck-config.h"
 #endif
 
 #include "addressbookpage.h"

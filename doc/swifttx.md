@@ -11,9 +11,9 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubrawtxlock`: publishes the raw transaction when locked via SwiftTX
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via SwiftTX
 
-This mechanism has been integrated into Bitcore-Node-MGN which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/KackCoinProject/insight-api-mgn#web-socket-api](https://github.com/KackCoinProject/insight-api-mgn#web-socket-api)
-* API: [https://github.com/KackCoinProject/insight-api-mgn#swifttx-transactions](https://github.com/KackCoinProject/insight-api-mgn#swifttx-transactions)
+This mechanism has been integrated into Bitcore-Node-KCK which allows for notification to be broadcast through Insight API in one of two ways:
+* WebSocket: [https://github.com/KackCoinProject/insight-api-kck#web-socket-api](https://github.com/KackCoinProject/insight-api-kck#web-socket-api)
+* API: [https://github.com/KackCoinProject/insight-api-kck#swifttx-transactions](https://github.com/KackCoinProject/insight-api-kck#swifttx-transactions)
 
 ####Command line option
 

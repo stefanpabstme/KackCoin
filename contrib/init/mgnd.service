@@ -1,19 +1,19 @@
 [Unit]
-Description=MGN's distributed currency daemon
+Description=KCK's distributed currency daemon
 After=network.target
 
 [Service]
-User=mgn
-Group=mgn
+User=kck
+Group=kck
 
 Type=forking
-PIDFile=/var/lib/mgnd/mgnd.pid
+PIDFile=/var/lib/kckd/kckd.pid
 
-ExecStart=/usr/bin/mgnd -daemon -pid=/var/lib/mgnd/mgnd.pid \
-          -conf=/etc/mgn/mgn.conf -datadir=/var/lib/mgnd
+ExecStart=/usr/bin/kckd -daemon -pid=/var/lib/kckd/kckd.pid \
+          -conf=/etc/kck/kck.conf -datadir=/var/lib/kckd
 
-ExecStop=-/usr/bin/mgn-cli -conf=/etc/mgn/mgn.conf \
-         -datadir=/var/lib/mgnd stop
+ExecStop=-/usr/bin/kck-cli -conf=/etc/kck/kck.conf \
+         -datadir=/var/lib/kckd stop
 
 Restart=always
 PrivateTmp=true

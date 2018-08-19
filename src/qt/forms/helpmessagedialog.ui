@@ -28,7 +28,7 @@
       </sizepolicy>
      </property>
      <property name="pixmap">
-      <pixmap resource="../mgn.qrc">:/images/about</pixmap>
+      <pixmap resource="../kck.qrc">:/images/about</pixmap>
      </property>
     </widget>
    </item>
@@ -97,7 +97,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../mgn.qrc"/>
+  <include location="../kck.qrc"/>
  </resources>
  <connections>
   <connection>

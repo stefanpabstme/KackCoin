@@ -184,8 +184,8 @@ bool Intro::pickDataDirectory()
         settings.setValue("strDataDir", dataDir);
     }
     /* Only override -datadir if different from the default, to make it possible to
-     * override -datadir in the mgn.conf file in the default data directory
-     * (to be consistent with mgnd behavior)
+     * override -datadir in the kck.conf file in the default data directory
+     * (to be consistent with kckd behavior)
      */
     if (dataDir != getDefaultDataDirectory())
         SoftSetArg("-datadir", GUIUtil::qstringToBoostPath(dataDir).string()); // use OS locale for path setting

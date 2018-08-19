@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between mgn-cli and mgnd)
+ * CBaseChainParams defines the base parameters (shared between kck-cli and kckd)
  * of a given instance of the KackCoin system.
  */
 class CBaseChainParams

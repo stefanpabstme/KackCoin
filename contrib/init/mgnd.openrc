@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/mgn/.mgn" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/mgn/.mgn"
+if [ -d "/var/lib/kck/.kck" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/kck/.kck"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/mgnd"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/kckd"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/mgn/mgn.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/mgnd}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/mgnd.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/kck/kck.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/kckd}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/kckd.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-mgn}
-BITCOIND_GROUP=${BITCOIND_GROUP:-mgn}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/mgnd}
+BITCOIND_USER=${BITCOIND_USER:-kck}
+BITCOIND_GROUP=${BITCOIND_GROUP:-kck}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/kckd}
 
 name="KackCoin Core Daemon"
-description="MGN crypto-currency p2p network daemon"
+description="KCK crypto-currency p2p network daemon"
 
-command="/usr/bin/mgnd"
+command="/usr/bin/kckd"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run mgnd."
+		eerror "ERROR: You must set a secure rpcpassword to run kckd."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "

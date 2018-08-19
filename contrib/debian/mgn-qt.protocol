@@ -1,6 +1,6 @@
 [Protocol]
-exec=mgn-qt '%u'
-protocol=mgn
+exec=kck-qt '%u'
+protocol=kck
 input=none
 output=none
 helper=true

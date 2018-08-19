@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones MGN para realizar pagos. Siempre verifique la cantidad y la dirección de recepción antes de enviar monedas.</translation>
+        <translation>Estas son sus direcciones KCK para realizar pagos. Siempre verifique la cantidad y la dirección de recepción antes de enviar monedas.</translation>
     </message>
     <message>
         <source>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son sus direcciones MGN para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
+        <translation>Estas son sus direcciones KCK para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Confirmar la encriptación de la Wallet</translation>
     </message>
     <message>
-        <source>MGN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MGNs from being stolen by malware infecting your computer.</source>
-        <translation>MGN se cerrará ahora para finalizar el proceso de encriptación. Recuerde que encriptar su Wallet no previene completamente que tus MGNs sean robados mediante malware infectando su ordenador.</translation>
+        <source>KCK will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KCKs from being stolen by malware infecting your computer.</source>
+        <translation>KCK se cerrará ahora para finalizar el proceso de encriptación. Recuerde que encriptar su Wallet no previene completamente que tus KCKs sean robados mediante malware infectando su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>¿Esta seguro de que desea encriptar tu Wallet?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MGN&lt;/b&gt;!</source>
-        <translation>Atención: Si encripta su Wallet y pierde su contraseña, perderá &lt;b&gt; TODOS SUS MGN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KCK&lt;/b&gt;!</source>
+        <translation>Atención: Si encripta su Wallet y pierde su contraseña, perderá &lt;b&gt; TODOS SUS KCK&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -240,7 +240,7 @@
     </message>
     <message>
         <source>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Introduzca la dirección MGN que querría encriptar usando BIP 38. Introduzca una contraseña en la caja central. Clickee en encriptar para computar la clave privada encriptada.</translation>
+        <translation>Introduzca la dirección KCK que querría encriptar usando BIP 38. Introduzca una contraseña en la caja central. Clickee en encriptar para computar la clave privada encriptada.</translation>
     </message>
     <message>
         <source>Address:</source>
@@ -248,7 +248,7 @@
     </message>
     <message>
         <source>The KackCoin address to sign the message with</source>
-        <translation>La dirección MGN con la que firmar el mensaje</translation>
+        <translation>La dirección KCK con la que firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -280,7 +280,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this KackCoin address</source>
-        <translation>Firmar el mensaje para demostrar que eres el propietario de esta dirección MGN</translation>
+        <translation>Firmar el mensaje para demostrar que eres el propietario de esta dirección KCK</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -304,11 +304,11 @@
     </message>
     <message>
         <source>The KackCoin address the message was signed with</source>
-        <translation>La dirección MGN con la que el mensaje fue firmado</translation>
+        <translation>La dirección KCK con la que el mensaje fue firmado</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
-        <translation>Verificar el mensaje para asegurarse que fue firmado con la dirección MGN especificada</translation>
+        <translation>Verificar el mensaje para asegurarse que fue firmado con la dirección KCK especificada</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -603,14 +603,14 @@
     </message>
     <message>
         <source>KackCoin Core</source>
-        <translation>Núcleo MGN</translation>
+        <translation>Núcleo KCK</translation>
     </message>
     <message>
         <source>Send coins to a KackCoin address</source>
-        <translation>Enviar coins a una dirección MGN</translation>
+        <translation>Enviar coins a una dirección KCK</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and MGN: URIs)</source>
+        <source>Request payments (generates QR codes and KCK: URIs)</source>
         <translation>Solicitud de pago (genera un código QR y URIs)</translation>
     </message>
     <message>
@@ -623,23 +623,23 @@
     </message>
     <message>
         <source>&amp;About KackCoin Core</source>
-        <translation>&amp;Sobre el núcleo de MGN</translation>
+        <translation>&amp;Sobre el núcleo de KCK</translation>
     </message>
     <message>
         <source>Show information about KackCoin Core</source>
-        <translation>Mostrar información sobre el núcleo de MGN</translation>
+        <translation>Mostrar información sobre el núcleo de KCK</translation>
     </message>
     <message>
-        <source>Modify configuration options for MGN</source>
-        <translation>Modificar las opciones de configuración de MGN</translation>
+        <source>Modify configuration options for KCK</source>
+        <translation>Modificar las opciones de configuración de KCK</translation>
     </message>
     <message>
         <source>Sign messages with your KackCoin addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones MGN para demostrar que le pertenecen</translation>
+        <translation>Firmar mensajes con sus direcciones KCK para demostrar que le pertenecen</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
-        <translation>Verificar mensajes para asegurar que están firmados con la dirección MGN especificada</translation>
+        <translation>Verificar mensajes para asegurar que están firmados con la dirección KCK especificada</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -670,8 +670,8 @@
         <translation>Abrir Fichero de Configuración de Nodos Maestros</translation>
     </message>
     <message>
-        <source>Open a MGN: URI or payment request</source>
-        <translation>Abrir un MGN: URI o solicitud de pago</translation>
+        <source>Open a KCK: URI or payment request</source>
+        <translation>Abrir un KCK: URI o solicitud de pago</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -682,7 +682,7 @@
         <translation>Ventana del explorador de bloques</translation>
     </message>
     <message>
-        <source>Show the KackCoin Core help message to get a list with possible MGN command-line options</source>
+        <source>Show the KackCoin Core help message to get a list with possible KCK command-line options</source>
         <translation>Mostrar la ayuda de KackCoin Core para obtener una lista de posibles opciones en línea de comandos</translation>
     </message>
     <message>
@@ -690,8 +690,8 @@
         <translation>Cliente KackCoin Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to MGN network</source>
-        <translation><numerusform>%n conexión(es) activa a la red MGN</numerusform><numerusform>%n conexion(es) activas a la red MGN</numerusform></translation>
+        <source>%n active connection(s) to KCK network</source>
+        <translation><numerusform>%n conexión(es) activa a la red KCK</numerusform><numerusform>%n conexion(es) activas a la red KCK</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -837,8 +837,8 @@ MultiEnvío: %1</translation>
         <translation>EtiquetaDeTexto</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (mgn.conf).</source>
-        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (mgn.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (kck.conf).</source>
+        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (kck.conf).</translation>
     </message>
 </context>
 <context>
@@ -1139,7 +1139,7 @@ MultiEnvío: %1</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid KackCoin address.</source>
-        <translation>La dirección introducida "%1" no es una dirección MGN válida.</translation>
+        <translation>La dirección introducida "%1" no es una dirección KCK válida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1185,7 +1185,7 @@ MultiEnvío: %1</translation>
     </message>
     <message>
         <source>KackCoin Core</source>
-        <translation>Núcleo MGN</translation>
+        <translation>Núcleo KCK</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -1247,8 +1247,8 @@ MultiEnvío: %1</translation>
         <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará KackCoin Core sus datos.</translation>
     </message>
     <message>
-        <source>KackCoin Core will download and store a copy of the MGN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>KackCoin Core descargará y guardará una copia de la cadena de bloques MGN. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
+        <source>KackCoin Core will download and store a copy of the KCK block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>KackCoin Core descargará y guardará una copia de la cadena de bloques KCK. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1260,7 +1260,7 @@ MultiEnvío: %1</translation>
     </message>
     <message>
         <source>KackCoin Core</source>
-        <translation>Núcleo MGN</translation>
+        <translation>Núcleo KCK</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1405,8 +1405,8 @@ MultiEnvío: %1</translation>
 To Add: enter percentage to give and KackCoin address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recompensa de participación o de nodo maestro a una lista de otras direcciones MGN después de su maduración.
-Para Añadir: introduzca porcentaje a enviar y las direcciones MGN a añadir al vector MultiEnvío.
+        <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recompensa de participación o de nodo maestro a una lista de otras direcciones KCK después de su maduración.
+Para Añadir: introduzca porcentaje a enviar y las direcciones KCK a añadir al vector MultiEnvío.
 Para Eliminar: Introduzca la dirección a eliminar y pulse la tecla delete.
 MultiEnvío no se activará a menos que haga usted click en Activar</translation>
     </message>
@@ -1544,48 +1544,48 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Por favor selecciones un nivel de privacidad.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 MGN</source>
-        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 MGN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 KCK</source>
+        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 KCK</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 MGN</source>
-        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 MGN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 KCK</source>
+        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 KCK</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 nodos maestros diferentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 MGN to anonymize 10000 MGN</source>
-        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 MGN para anonimizar 10000 MGN</translation>
+        <source>This option is the quickest and will cost about ~0.025 KCK to anonymize 10000 KCK</source>
+        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 KCK para anonimizar 10000 KCK</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 MGN to anonymize 10000 MGN</source>
-        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 MGN para anonimizar 10000 MGN.</translation>
+        <source>This option is moderately fast and will cost about 0.05 KCK to anonymize 10000 KCK</source>
+        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 KCK para anonimizar 10000 KCK.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta es la opción más lenta pero más segura. Usar el máximo anonimato costará</translation>
     </message>
     <message>
-        <source>0.1 MGN per 10000 MGN you anonymize.</source>
-        <translation>0.1 MGN por 10000 MGN que anonimizas.</translation>
+        <source>0.1 KCK per 10000 KCK you anonymize.</source>
+        <translation>0.1 KCK por 10000 KCK que anonimizas.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Configuración de Ofuscación</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening MGN's configuration screen.</source>
-        <translation>La Ofuscación se configuró correctamente en modo básico (%1 y 2 rondas). Puedes cambiar esto en cualquier momento accediendo a la ventana de configuración de MGN.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening KCK's configuration screen.</source>
+        <translation>La Ofuscación se configuró correctamente en modo básico (%1 y 2 rondas). Puedes cambiar esto en cualquier momento accediendo a la ventana de configuración de KCK.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening MGN's configuration screen.</source>
-        <translation>La Ofuscación se activó correctamente en modo alto (%1 y 8 rondas). Usted puede cambiar esto en cualquier momento abriendo la ventana de configuración de MGN.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening KCK's configuration screen.</source>
+        <translation>La Ofuscación se activó correctamente en modo alto (%1 y 8 rondas). Usted puede cambiar esto en cualquier momento abriendo la ventana de configuración de KCK.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening MGN's configuration screen.</source>
-        <translation>La Ofuscación se activó correctamente en su grado máximo (%1 y 16 rondas). Usted puede cambiar ésto en cualquier momento en la ventana de configuración de MGN.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening KCK's configuration screen.</source>
+        <translation>La Ofuscación se activó correctamente en su grado máximo (%1 y 16 rondas). Usted puede cambiar ésto en cualquier momento en la ventana de configuración de KCK.</translation>
     </message>
 </context>
 <context>
@@ -1646,8 +1646,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Si deselecciona el gasto de cambio no confirmado, las entradas de una transacción&lt;br/&gt;no podrán ser usadas hasta que esa transacción tenga al menos una confirmación.&lt;br/&gt;Esto también afecta a cómo se calcula su balance actual.</translation>
     </message>
     <message>
-        <source>Automatically open the MGN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente MGN en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
+        <source>Automatically open the KCK client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente KCK en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1666,12 +1666,12 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Experto</translation>
     </message>
     <message>
-        <source>Automatically start MGN after logging in to the system.</source>
-        <translation>Arrancar MGN automáticamente después de identificarse en Windows.</translation>
+        <source>Automatically start KCK after logging in to the system.</source>
+        <translation>Arrancar KCK automáticamente después de identificarse en Windows.</translation>
     </message>
     <message>
-        <source>&amp;Start MGN on system login</source>
-        <translation>&amp;Arrancar MGN al inicio del sistema</translation>
+        <source>&amp;Start KCK on system login</source>
+        <translation>&amp;Arrancar KCK al inicio del sistema</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1686,8 +1686,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Esta cantidad actúa como un techo para desactivar la Ofuscación una vez alcanzado.</translation>
     </message>
     <message>
-        <source>Amount of MGN to keep anonymized</source>
-        <translation>Cantidad de MGN a mantener anonimizados</translation>
+        <source>Amount of KCK to keep anonymized</source>
+        <translation>Cantidad de KCK a mantener anonimizados</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1714,22 +1714,22 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>&amp;Red</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting MGN.</source>
-        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar MGN.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting KCK.</source>
+        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar KCK.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/MGN-project/MGN-project-translations</source>
+https://www.transifex.com/KCK-project/KCK-project-translations</source>
         <translation>¿Falta su lenguaje o la traducción está incompleta? Contribuya con las traducciones aquí:
-https://www.transifex.com/MGN-project/MGN-project-translations</translation>
+https://www.transifex.com/KCK-project/KCK-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the MGN network through a SOCKS5 proxy.</source>
-        <translation>Conectar a la red MGN mediante un proxy SOCKS5.</translation>
+        <source>Connect to the KCK network through a SOCKS5 proxy.</source>
+        <translation>Conectar a la red KCK mediante un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1883,8 +1883,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Balances</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MGN network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red MGN después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the KCK network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red KCK después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1927,8 +1927,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Balance de Ofuscación:</translation>
     </message>
     <message>
-        <source>0 MGN / 0 Rounds</source>
-        <translation>0 MGN / 0 Rondas</translation>
+        <source>0 KCK / 0 Rounds</source>
+        <translation>0 KCK / 0 Rondas</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2093,12 +2093,12 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Dirección de pago inválida %1</translation>
     </message>
     <message>
-        <source>Cannot start MGN: click-to-pay handler</source>
-        <translation>No se puede iniciar MGN: módulo click-to-pay</translation>
+        <source>Cannot start KCK: click-to-pay handler</source>
+        <translation>No se puede iniciar KCK: módulo click-to-pay</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid KackCoin address or malformed URI parameters.</source>
-        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección MGN inválida o parámetros del identificador malformados.</translation>
+        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección KCK inválida o parámetros del identificador malformados.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2184,7 +2184,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
     </message>
     <message>
         <source>Enter a KackCoin address (e.g. %1)</source>
-        <translation>Introduzca una dirección MGN (p.e. %1)</translation>
+        <translation>Introduzca una dirección KCK (p.e. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2317,8 +2317,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Cadena de bloques</translation>
     </message>
     <message>
-        <source>Open the MGN debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir el fichero de depuración MGN en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
+        <source>Open the KCK debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir el fichero de depuración KCK en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2485,8 +2485,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Fuera:</translation>
     </message>
     <message>
-        <source>Welcome to the MGN RPC console.</source>
-        <translation>Bienvenido a la consola RPC de MGN.</translation>
+        <source>Welcome to the KCK RPC console.</source>
+        <translation>Bienvenido a la consola RPC de KCK.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2556,12 +2556,12 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Una etiqueta opcional a asociar con la nueva dirección de recepción.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MGN network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red MGN.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the KCK network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red KCK.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the MGN network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red MGN.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the KCK network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red KCK.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2793,8 +2793,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Tamaño de UTXO:</translation>
     </message>
     <message>
-        <source>0 MGN</source>
-        <translation>0 MGN</translation>
+        <source>0 KCK</source>
+        <translation>0 KCK</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2841,16 +2841,16 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Tiempo de confirmación:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uMGNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMGNs in fee,&lt;br /&gt;while "at least" pays 1000 uMGNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uMGNs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uMGNs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uMGNs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uKCKs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uKCKs in fee,&lt;br /&gt;while "at least" pays 1000 uKCKs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uKCKs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uKCKs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uKCKs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uMGNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMGNs in fee,&lt;br /&gt;while "total at least" pays 1000 uMGNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uMGNs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uMGNs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uMGNs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uKCKs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uKCKs in fee,&lt;br /&gt;while "total at least" pays 1000 uKCKs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uKCKs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uKCKs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uKCKs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for MGN transactions than the network can process.</source>
-        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones MGN de las que la red puede procesar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for KCK transactions than the network can process.</source>
+        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones KCK de las que la red puede procesar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2954,7 +2954,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
     </message>
     <message>
         <source>Warning: Invalid KackCoin address</source>
-        <translation>Advertencia: Direcciones MGN inválidas</translation>
+        <translation>Advertencia: Direcciones KCK inválidas</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3061,7 +3061,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
     </message>
     <message>
         <source>The KackCoin address to send the payment to</source>
-        <translation>La dirección MGN a la cual enviar el pago</translation>
+        <translation>La dirección KCK a la cual enviar el pago</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3100,8 +3100,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Mensaje:</translation>
     </message>
     <message>
-        <source>A message that was attached to the MGN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MGN network.</source>
-        <translation>Un mensaje adjunto al MGN: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red MGN.</translation>
+        <source>A message that was attached to the KCK: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the KCK network.</source>
+        <translation>Un mensaje adjunto al KCK: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red KCK.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3128,7 +3128,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
     <name>ShutdownWindow</name>
     <message>
         <source>KackCoin Core is shutting down...</source>
-        <translation>El programa MGN se está cerrando...</translation>
+        <translation>El programa KCK se está cerrando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3151,7 +3151,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
     </message>
     <message>
         <source>The KackCoin address to sign the message with</source>
-        <translation>La dirección MGN con la que firmar el mensaje</translation>
+        <translation>La dirección KCK con la que firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3183,15 +3183,15 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this KackCoin address</source>
-        <translation>Firmar el mensaje para demostrar que eres el propietario de esta dirección MGN</translation>
+        <translation>Firmar el mensaje para demostrar que eres el propietario de esta dirección KCK</translation>
     </message>
     <message>
         <source>The KackCoin address the message was signed with</source>
-        <translation>La dirección MGN con la que el mensaje fue firmado</translation>
+        <translation>La dirección KCK con la que el mensaje fue firmado</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
-        <translation>Verificar el mensaje para asegurarse que fue firmado con la dirección MGN especificada</translation>
+        <translation>Verificar el mensaje para asegurarse que fue firmado con la dirección KCK especificada</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3278,7 +3278,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
     <name>SplashScreen</name>
     <message>
         <source>KackCoin Core</source>
-        <translation>Núcleo MGN</translation>
+        <translation>Núcleo KCK</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3841,8 +3841,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Enviar Monedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 MGN.</source>
-        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 MGN.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 KCK.</source>
+        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 KCK.</translation>
     </message>
 </context>
 <context>
@@ -3885,7 +3885,7 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
     </message>
 </context>
 <context>
-    <name>mgn-core</name>
+    <name>kck-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1= mantener los metadatos tx p.e. dueño de la cuenta e información de la solicitud de pago, 2 = ignorar metadatos tx)</translation>
@@ -3931,8 +3931,8 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Borrar todas las transacciones del monedero y solo recuperar partes de la cadena de bloque a traves de -rescan al inicio.</translation>
     </message>
     <message>
-        <source>Disable all MGN specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar toda la funcionalidad especifica MGN (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, predeterminado: %u)</translation>
+        <source>Disable all KCK specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar toda la funcionalidad especifica KCK (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, predeterminado: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3975,12 +3975,12 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Ejecutar comando cuando el mejor bloque cambie (%s en cmd es reemplazado por el block hash)</translation>
     </message>
     <message>
-        <source>Fees (in MGN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Comisiones (en MGN/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
+        <source>Fees (in KCK/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Comisiones (en KCK/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in MGN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Comisiones (en MGN/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
+        <source>Fees (in KCK/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Comisiones (en KCK/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4083,27 +4083,27 @@ https://www.transifex.com/MGN-project/MGN-project-translations</translation>
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt; y software de cifrado escrito por Eric Young y software de UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use MGNd, or the -server option to MGN-qt, you must set an rpcpassword in the configuration file:
+        <source>To use KCKd, or the -server option to KCK-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=MGNrpc
+rpcuser=KCKrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "MGN Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "KCK Alert" admin@foo.com
 </source>
-        <translation>Para usar MGNd, o la opción -server de MGN-qt, debes definir un rpcpassword en el archivo de configuración:
+        <translation>Para usar KCKd, o la opción -server de KCK-qt, debes definir un rpcpassword en el archivo de configuración:
 %s
 Es recomendado que uses la siguiente contraseña aleatoria:
-rpcuser=MGN
+rpcuser=KCK
 rpcrpcpassword=%s
 (No necesitas recordar esta contraseña)
 El nombre de usuario y contraseña NO DEBEN ser los mismos.
 Si el archivo no existe, crearlo con permisos de solo lectura para el propietario.
 También es recomendado definir alertnotify de manera que seas notificado de problemas;
-por ejemplo: alertnotify=echo %%s | mail -s "MGN Alert" admin@foo.com
+por ejemplo: alertnotify=echo %%s | mail -s "KCK Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -4115,12 +4115,12 @@ por ejemplo: alertnotify=echo %%s | mail -s "MGN Alert" admin@foo.com
         <translation>Imposible localizar suficientes fondos denominados de Ofuscación para esta transacción.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 MGN.</source>
-        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 MGN.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 KCK.</source>
+        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 KCK.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 MGN.</source>
-        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 MGN.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 KCK.</source>
+        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 KCK.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4356,7 +4356,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "MGN Alert" admin@foo.com
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of KackCoin Core</source>
-        <translation>Error al cargar wallet.dat: La Billetera requiere una nueva versión del Núcleo MGN</translation>
+        <translation>Error al cargar wallet.dat: La Billetera requiere una nueva versión del Núcleo KCK</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4407,8 +4407,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "MGN Alert" admin@foo.com
         <translation>Falló al leer el bloque</translation>
     </message>
     <message>
-        <source>Fee (in MGN/kB) to add to transactions you send (default: %s)</source>
-        <translation>Comisión (en MGN/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
+        <source>Fee (in KCK/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comisión (en KCK/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4579,8 +4579,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "MGN Alert" admin@foo.com
         <translation>Activar funcionalidad de recompensa por participación (0-1, por defecto: %u)</translation>
     </message>
     <message>
-        <source>Keep N MGN anonymized (default: %u)</source>
-        <translation>Mantener N MGN anonimizados (predeterminado: %u)</translation>
+        <source>Keep N KCK anonymized (default: %u)</source>
+        <translation>Mantener N KCK anonimizados (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

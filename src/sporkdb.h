@@ -2,8 +2,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef MGN_CSPORKDB_H
-#define MGN_CSPORKDB_H
+#ifndef KCK_CSPORKDB_H
+#define KCK_CSPORKDB_H
 
 #include <boost/filesystem/path.hpp>
 #include "leveldbwrapper.h"
@@ -25,4 +25,4 @@ public:
 };
 
 
-#endif //MGN_CSPORKDB_H
+#endif //KCK_CSPORKDB_H

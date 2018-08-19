@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun MGN osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <translation>Nämä ovat sinun KCK osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
         <source>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun MGN osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <translation>Nämä ovat sinun KCK osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,16 +164,16 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>MGN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MGNs from being stolen by malware infecting your computer.</source>
-        <translation>MGN sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella MGNien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>KCK will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KCKs from being stolen by malware infecting your computer.</source>
+        <translation>KCK sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella KCKien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MGN&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki MGNisi&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KCK&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki KCKisi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -228,7 +228,7 @@
     </message>
     <message>
         <source>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Syötä MGN osoite, jonnka tahtoisit salata käyttäen BIP 38.
+        <translation>Syötä KCK osoite, jonnka tahtoisit salata käyttäen BIP 38.
 Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
     </message>
     <message>
@@ -237,7 +237,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
     </message>
     <message>
         <source>The KackCoin address to sign the message with</source>
-        <translation>MGN osoite, jolla viesti allekirjoitetaan</translation>
+        <translation>KCK osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -269,7 +269,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
     </message>
     <message>
         <source>Sign the message to prove you own this KackCoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän MGN osoitteen</translation>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän KCK osoitteen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -289,7 +289,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
     </message>
     <message>
         <source>The KackCoin address the message was signed with</source>
-        <translation>MGN osoite, jolla viesti allekirjoitettiin</translation>
+        <translation>KCK osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -576,15 +576,15 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
     </message>
     <message>
         <source>KackCoin Core</source>
-        <translation>MGN Ydin</translation>
+        <translation>KCK Ydin</translation>
     </message>
     <message>
         <source>Send coins to a KackCoin address</source>
-        <translation>Lähetä kolikkoja MGN osoitteeseen</translation>
+        <translation>Lähetä kolikkoja KCK osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and MGN: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja MGN: URIja)</translation>
+        <source>Request payments (generates QR codes and KCK: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja KCK: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -600,11 +600,11 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
     </message>
     <message>
         <source>Show information about KackCoin Core</source>
-        <translation>Näytä tietoja MGN Ytimestä</translation>
+        <translation>Näytä tietoja KCK Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for MGN</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja MGN:lle</translation>
+        <source>Modify configuration options for KCK</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja KCK:lle</translation>
     </message>
     <message>
         <source>Sign messages with your KackCoin addresses to prove you own them</source>
@@ -612,7 +612,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä MGN osoiteella.</translation>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä KCK osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -643,8 +643,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a MGN: URI or payment request</source>
-        <translation>Avaa MGN: URI tai pyydä maksua</translation>
+        <source>Open a KCK: URI or payment request</source>
+        <translation>Avaa KCK: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -655,12 +655,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the KackCoin Core help message to get a list with possible MGN command-line options</source>
-        <translation>Näytä MGN Ydin apuviesti saadaksesi lista mahdollisista MGN komentolinja komennoista.</translation>
+        <source>Show the KackCoin Core help message to get a list with possible KCK command-line options</source>
+        <translation>Näytä KCK Ydin apuviesti saadaksesi lista mahdollisista KCK komentolinja komennoista.</translation>
     </message>
     <message>
         <source>KackCoin Core client</source>
-        <translation>MGN Ydin asiakasohjelma</translation>
+        <translation>KCK Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -895,7 +895,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
     <name>HelpMessageDialog</name>
     <message>
         <source>KackCoin Core</source>
-        <translation>MGN Ydin</translation>
+        <translation>KCK Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -914,11 +914,11 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
     </message>
     <message>
         <source>Welcome to KackCoin Core.</source>
-        <translation>Tervetuloa MGN Ytimeen.</translation>
+        <translation>Tervetuloa KCK Ytimeen.</translation>
     </message>
     <message>
         <source>KackCoin Core</source>
-        <translation>MGN Ydin</translation>
+        <translation>KCK Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1091,32 +1091,32 @@ Please check the address and try again.</source>
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 MGN</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 MGN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 KCK</source>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 KCK</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 MGN</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 MGN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 KCK</source>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 KCK</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Käytä 16 erillistä masternodea</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 MGN to anonymize 10000 MGN</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 MGN anonymoidaksesi 10000 MGN</translation>
+        <source>This option is the quickest and will cost about ~0.025 KCK to anonymize 10000 KCK</source>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 KCK anonymoidaksesi 10000 KCK</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 MGN to anonymize 10000 MGN</source>
-        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 MGN anonymoidaksesi 10000 MGN</translation>
+        <source>This option is moderately fast and will cost about 0.05 KCK to anonymize 10000 KCK</source>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 KCK anonymoidaksesi 10000 KCK</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tämä on hitain ja turvallisin vaihtoehto. Täydesti anonymisoiminen ei maksa mitään.</translation>
     </message>
     <message>
-        <source>0.1 MGN per 10000 MGN you anonymize.</source>
-        <translation>0.1 per 10000 MGN, jotka anonymisoit.</translation>
+        <source>0.1 KCK per 10000 KCK you anonymize.</source>
+        <translation>0.1 per 10000 KCK, jotka anonymisoit.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1165,12 +1165,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start MGN after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä MGN kun kirjaudut sisään.</translation>
+        <source>Automatically start KCK after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä KCK kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start MGN on system login</source>
-        <translation>&amp;Aloita MGN järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start KCK on system login</source>
+        <translation>&amp;Aloita KCK järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1315,8 +1315,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the MGN RPC console.</source>
-        <translation>Tervetuloa MGN RPC konsoliin.</translation>
+        <source>Welcome to the KCK RPC console.</source>
+        <translation>Tervetuloa KCK RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1503,8 +1503,8 @@ Please check the address and try again.</source>
         <translation>ei</translation>
     </message>
     <message>
-        <source>0 MGN</source>
-        <translation>0 MGN</translation>
+        <source>0 KCK</source>
+        <translation>0 KCK</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -1609,7 +1609,7 @@ Please check the address and try again.</source>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>The KackCoin address to sign the message with</source>
-        <translation>MGN osoite, jolla viesti allekirjoitetaan</translation>
+        <translation>KCK osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1633,11 +1633,11 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Sign the message to prove you own this KackCoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän MGN osoitteen</translation>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän KCK osoitteen</translation>
     </message>
     <message>
         <source>The KackCoin address the message was signed with</source>
-        <translation>MGN osoite, jolla viesti allekirjoitettiin</translation>
+        <translation>KCK osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1676,7 +1676,7 @@ Please check the address and try again.</source>
     <name>SplashScreen</name>
     <message>
         <source>KackCoin Core</source>
-        <translation>MGN Ydin</translation>
+        <translation>KCK Ydin</translation>
     </message>
     </context>
 <context>
@@ -1887,7 +1887,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>mgn-core</name>
+    <name>kck-core</name>
     <message>
         <source>Error</source>
         <translation>Virhe</translation>

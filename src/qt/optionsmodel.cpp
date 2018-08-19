@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/mgn-config.h"
+#include "config/kck-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -62,7 +62,7 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::MGN);
+        settings.setValue("nDisplayUnit", BitcoinUnits::KCK);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
@@ -148,7 +148,7 @@ void OptionsModel::Init()
     if (settings.contains("nObfuscationRounds"))
         SoftSetArg("-obfuscationrounds", settings.value("nObfuscationRounds").toString().toStdString());
     if (settings.contains("nAnonymizeKackCoinAmount"))
-        SoftSetArg("-anonymizemgnamount", settings.value("nAnonymizeKackCoinAmount").toString().toStdString());
+        SoftSetArg("-anonymizekckamount", settings.value("nAnonymizeKackCoinAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -159,7 +159,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in mgn.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in kck.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())

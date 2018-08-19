@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * MGN RPC command dispatcher.
+ * KCK RPC command dispatcher.
  */
 class CRPCTable
 {

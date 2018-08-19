@@ -42,7 +42,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-#error "MGN cannot be compiled without assertions."
+#error "KCK cannot be compiled without assertions."
 #endif
 
 /**
@@ -2019,7 +2019,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("mgn-scriptch");
+    RenameThread("kck-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -2172,7 +2172,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
                 nHeight = (*mi).second->nHeight + 1;
         }
 
-        // MGN
+        // KCK
         // It is entierly possible that we don't have enough data and this could fail
         // (i.e. the block could indeed be valid). Store the block for later consideration
         // but issue an initial reject message.

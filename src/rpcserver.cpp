@@ -220,10 +220,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop MGN server.");
+            "\nStop KCK server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "MGN server stopping";
+    return "KCK server stopping";
 }
 
 
@@ -301,15 +301,15 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
         /* KackCoin features */
-        {"mgn", "masternode", &masternode, true, true, false},
-        {"mgn", "masternodelist", &masternodelist, true, true, false},
-        {"mgn", "mnbudget", &mnbudget, true, true, false},
-        {"mgn", "mnbudgetvoteraw", &mnbudgetvoteraw, true, true, false},
-        {"mgn", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"mgn", "mnsync", &mnsync, true, true, false},
-        {"mgn", "spork", &spork, true, true, false},
+        {"kck", "masternode", &masternode, true, true, false},
+        {"kck", "masternodelist", &masternodelist, true, true, false},
+        {"kck", "mnbudget", &mnbudget, true, true, false},
+        {"kck", "mnbudgetvoteraw", &mnbudgetvoteraw, true, true, false},
+        {"kck", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"kck", "mnsync", &mnsync, true, true, false},
+        {"kck", "spork", &spork, true, true, false},
 #ifdef ENABLE_WALLET
-        {"mgn", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"kck", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -574,16 +574,16 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use mgnd, or the -server option to mgn-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use kckd, or the -server option to kck-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=mgnrpc\n"
+                                               "rpcuser=kckrpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
                                                "If the file does not exist, create it with owner-readable-only file permissions.\n"
                                                "It is also recommended to set alertnotify so you are notified of problems;\n"
-                                               "for example: alertnotify=echo %%s | mail -s \"MGN Alert\" admin@foo.com\n"),
+                                               "for example: alertnotify=echo %%s | mail -s \"KCK Alert\" admin@foo.com\n"),
                                              GetConfigFile().string(),
                                              EncodeBase58(&rand_pwd[0], &rand_pwd[0] + 32)),
             "", CClientUIInterface::MSG_ERROR | CClientUIInterface::SECURE);
@@ -1034,7 +1034,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> mgn-cli " + methodname + " " + args + "\n";
+    return "> kck-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

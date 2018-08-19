@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/mgn-config.h \
+           src/kck-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/mgn-config.h \
+           src/config/kck-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -333,7 +333,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/mgn.moc \
+           src/qt/kck.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -374,9 +374,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/mgn-cli.cpp \
-           src/mgn-tx.cpp \
-           src/mgn.cpp \
+           src/kck-cli.cpp \
+           src/kck-tx.cpp \
+           src/kck.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -471,8 +471,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/mgn.cpp \
-           src/qt/mgnstrings.cpp \
+           src/qt/kck.cpp \
+           src/qt/kckstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -550,7 +550,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_mgn.cpp \
+           src/test/test_kck.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -641,21 +641,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/mgn.qrc src/qt/mgn_locale.qrc
+RESOURCES += src/qt/kck.qrc src/qt/kck_locale.qrc
 
-TRANSLATIONS += src/qt/locale/mgn_bg.ts \
-                src/qt/locale/mgn_de.ts \
-                src/qt/locale/mgn_en.ts \
-                src/qt/locale/mgn_es.ts \
-                src/qt/locale/mgn_fi.ts \
-                src/qt/locale/mgn_fr.ts \
-                src/qt/locale/mgn_it.ts \
-                src/qt/locale/mgn_ja.ts \
-                src/qt/locale/mgn_pl.ts \
-                src/qt/locale/mgn_pt.ts \
-                src/qt/locale/mgn_ru.ts \
-                src/qt/locale/mgn_sk.ts \
-                src/qt/locale/mgn_sv.ts \
-                src/qt/locale/mgn_vi.ts \
-                src/qt/locale/mgn_zh_CN.ts \
-                src/qt/locale/mgn_zh_TW.ts
+TRANSLATIONS += src/qt/locale/kck_bg.ts \
+                src/qt/locale/kck_de.ts \
+                src/qt/locale/kck_en.ts \
+                src/qt/locale/kck_es.ts \
+                src/qt/locale/kck_fi.ts \
+                src/qt/locale/kck_fr.ts \
+                src/qt/locale/kck_it.ts \
+                src/qt/locale/kck_ja.ts \
+                src/qt/locale/kck_pl.ts \
+                src/qt/locale/kck_pt.ts \
+                src/qt/locale/kck_ru.ts \
+                src/qt/locale/kck_sk.ts \
+                src/qt/locale/kck_sv.ts \
+                src/qt/locale/kck_vi.ts \
+                src/qt/locale/kck_zh_CN.ts \
+                src/qt/locale/kck_zh_TW.ts

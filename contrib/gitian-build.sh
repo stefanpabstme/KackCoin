@@ -31,7 +31,7 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the mgn, gitian-builder, gitian.sigs, and mgn-detached-sigs.
+Run this script from the directory containing the kck, gitian-builder, gitian.sigs, and kck-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -247,7 +247,7 @@ then
 fi
 
 # Set up build
-pushd ./mgn
+pushd ./kck
 git fetch
 git checkout ${COMMIT}
 popd
@@ -256,7 +256,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./mgn-binaries/${VERSION}
+	mkdir -p ./kck-binaries/${VERSION}
 
 	# Build Dependencies
 	echo ""
@@ -266,7 +266,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -C ../mgn/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../kck/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
@@ -274,9 +274,9 @@ then
             echo ""
 	    echo "Compiling ${VERSION} Linux"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit mgn=${COMMIT} --url mgn=${url} ../mgn/contrib/gitian-descriptors/gitian-linux.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../mgn/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/mgn-*.tar.gz build/out/src/mgn-*.tar.gz ../mgn-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit kck=${COMMIT} --url kck=${url} ../kck/contrib/gitian-descriptors/gitian-linux.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../kck/contrib/gitian-descriptors/gitian-linux.yml
+	    mv build/out/kck-*.tar.gz build/out/src/kck-*.tar.gz ../kck-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -284,10 +284,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit mgn=${COMMIT} --url mgn=${url} ../mgn/contrib/gitian-descriptors/gitian-win.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../mgn/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/mgn-*-win-unsigned.tar.gz inputs/mgn-win-unsigned.tar.gz
-	    mv build/out/mgn-*.zip build/out/mgn-*.exe ../mgn-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit kck=${COMMIT} --url kck=${url} ../kck/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../kck/contrib/gitian-descriptors/gitian-win.yml
+	    mv build/out/kck-*-win-unsigned.tar.gz inputs/kck-win-unsigned.tar.gz
+	    mv build/out/kck-*.zip build/out/kck-*.exe ../kck-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -295,10 +295,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit mgn=${COMMIT} --url mgn=${url} ../mgn/contrib/gitian-descriptors/gitian-osx.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../mgn/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/mgn-*-osx-unsigned.tar.gz inputs/mgn-osx-unsigned.tar.gz
-	    mv build/out/mgn-*.tar.gz build/out/mgn-*.dmg ../mgn-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit kck=${COMMIT} --url kck=${url} ../kck/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../kck/contrib/gitian-descriptors/gitian-osx.yml
+	    mv build/out/kck-*-osx-unsigned.tar.gz inputs/kck-osx-unsigned.tar.gz
+	    mv build/out/kck-*.tar.gz build/out/kck-*.dmg ../kck-binaries/${VERSION}
 	fi
 	popd
 
@@ -325,27 +325,27 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Linux"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../mgn/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../kck/contrib/gitian-descriptors/gitian-linux.yml
 	# Windows
 	echo ""
 	echo "Verifying v${VERSION} Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../mgn/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../kck/contrib/gitian-descriptors/gitian-win.yml
 	# Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../mgn/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../kck/contrib/gitian-descriptors/gitian-osx.yml
 	# Signed Windows
 	echo ""
 	echo "Verifying v${VERSION} Signed Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../mgn/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../kck/contrib/gitian-descriptors/gitian-osx-signer.yml
 	# Signed Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../mgn/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../kck/contrib/gitian-descriptors/gitian-osx-signer.yml
 	popd
 fi
 
@@ -360,10 +360,10 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../mgn/contrib/gitian-descriptors/gitian-win-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../mgn/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/mgn-*win64-setup.exe ../mgn-binaries/${VERSION}
-	    mv build/out/mgn-*win32-setup.exe ../mgn-binaries/${VERSION}
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../kck/contrib/gitian-descriptors/gitian-win-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../kck/contrib/gitian-descriptors/gitian-win-signer.yml
+	    mv build/out/kck-*win64-setup.exe ../kck-binaries/${VERSION}
+	    mv build/out/kck-*win32-setup.exe ../kck-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -371,9 +371,9 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../mgn/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../mgn/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/mgn-osx-signed.dmg ../mgn-binaries/${VERSION}/mgn-${VERSION}-osx.dmg
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../kck/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../kck/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    mv build/out/kck-osx-signed.dmg ../kck-binaries/${VERSION}/kck-${VERSION}-osx.dmg
 	fi
 	popd
 

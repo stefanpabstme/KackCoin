@@ -59,11 +59,11 @@
     </message>
     <message>
         <source>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina MGN adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <translation>Det här är dina KCK adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
         <source>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina MGN adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <translation>Det här är dina KCK adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>MGN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MGNs from being stolen by malware infecting your computer.</source>
-        <translation>MGN kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina MGNs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>KCK will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KCKs from being stolen by malware infecting your computer.</source>
+        <translation>KCK kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina KCKs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MGN&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA MGN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KCK&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA KCK&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -224,7 +224,7 @@
     </message>
     <message>
         <source>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Skriv in en MGN adress som du vill kryptera med BIP 38.
+        <translation>Skriv in en KCK adress som du vill kryptera med BIP 38.
 Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -233,7 +233,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     </message>
     <message>
         <source>The KackCoin address to sign the message with</source>
-        <translation>MGN adressen för signera meddelandet med</translation>
+        <translation>KCK adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -265,7 +265,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     </message>
     <message>
         <source>Sign the message to prove you own this KackCoin address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna MGN adress</translation>
+        <translation>Signera meddelandet för att bevisa att du äger denna KCK adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -289,11 +289,11 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     </message>
     <message>
         <source>The KackCoin address the message was signed with</source>
-        <translation>MGN adressen meddelandet blev signerat med</translation>
+        <translation>KCK adressen meddelandet blev signerat med</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika MGN adressen.</translation>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika KCK adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -584,15 +584,15 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     </message>
     <message>
         <source>KackCoin Core</source>
-        <translation>MGN Kärna</translation>
+        <translation>KCK Kärna</translation>
     </message>
     <message>
         <source>Send coins to a KackCoin address</source>
-        <translation>Skicka mynt till en MGN adress</translation>
+        <translation>Skicka mynt till en KCK adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and MGN: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och MGN: URls)</translation>
+        <source>Request payments (generates QR codes and KCK: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och KCK: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -604,23 +604,23 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     </message>
     <message>
         <source>&amp;About KackCoin Core</source>
-        <translation>Om MGN Kärnan</translation>
+        <translation>Om KCK Kärnan</translation>
     </message>
     <message>
         <source>Show information about KackCoin Core</source>
-        <translation>Visa information om MGN Kärnan</translation>
+        <translation>Visa information om KCK Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for MGN</source>
-        <translation>Ändra konfigurationsval för MGN</translation>
+        <source>Modify configuration options for KCK</source>
+        <translation>Ändra konfigurationsval för KCK</translation>
     </message>
     <message>
         <source>Sign messages with your KackCoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med din MGN adress för att visa att du äger dem</translation>
+        <translation>Signera meddelanden med din KCK adress för att visa att du äger dem</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika MGN adressen.</translation>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika KCK adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -632,7 +632,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     </message>
     <message>
         <source>KackCoin Core client</source>
-        <translation>MGN kärn klient</translation>
+        <translation>KCK kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -842,14 +842,14 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     <name>HelpMessageDialog</name>
     <message>
         <source>KackCoin Core</source>
-        <translation>MGN Kärna</translation>
+        <translation>KCK Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
         <source>KackCoin Core</source>
-        <translation>MGN Kärna</translation>
+        <translation>KCK Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1107,7 +1107,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>The KackCoin address to sign the message with</source>
-        <translation>MGN adressen för signera meddelandet med</translation>
+        <translation>KCK adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1131,15 +1131,15 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     </message>
     <message>
         <source>Sign the message to prove you own this KackCoin address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna MGN adress</translation>
+        <translation>Signera meddelandet för att bevisa att du äger denna KCK adress</translation>
     </message>
     <message>
         <source>The KackCoin address the message was signed with</source>
-        <translation>MGN adressen meddelandet blev signerat med</translation>
+        <translation>KCK adressen meddelandet blev signerat med</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika MGN adressen.</translation>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika KCK adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1182,7 +1182,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     <name>SplashScreen</name>
     <message>
         <source>KackCoin Core</source>
-        <translation>MGN Kärna</translation>
+        <translation>KCK Kärna</translation>
     </message>
     </context>
 <context>
@@ -1365,7 +1365,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     </message>
     </context>
 <context>
-    <name>mgn-core</name>
+    <name>kck-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

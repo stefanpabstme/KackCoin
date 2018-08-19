@@ -31,7 +31,7 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// MGNMiner
+// KCKMiner
 //
 
 //
@@ -420,7 +420,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != chainActive.Tip()->GetBlockHash())
-            return error("MGNMiner : generated block is stale");
+            return error("KCKMiner : generated block is stale");
     }
 
     // Remove key from key pool
@@ -435,7 +435,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     // Process this block the same as if we had received it from another node
     CValidationState state;
     if (!ProcessNewBlock(state, NULL, pblock))
-        return error("MGNMiner : ProcessNewBlock, block not accepted");
+        return error("KCKMiner : ProcessNewBlock, block not accepted");
 
     for (CNode* node : vNodes)
         node->PushInventory(CInv(MSG_BLOCK, pblock->GetHash()));
@@ -449,9 +449,9 @@ bool fGenerateBitcoins = false;
 
 void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
-    LogPrintf("MGNMiner started\n");
+    LogPrintf("KCKMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("mgn-miner");
+    RenameThread("kck-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -519,7 +519,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
             continue;
         }
 
-        LogPrintf("Running MGNMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+        LogPrintf("Running KCKMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
             ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //

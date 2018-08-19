@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your KackCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše MGN adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <translation>Toto sú vaše KCK adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
         <source>These are your KackCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše MGN adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <translation>Toto sú vaše KCK adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>MGN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MGNs from being stolen by malware infecting your computer.</source>
-        <translation>MGN sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše MGN pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>KCK will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KCKs from being stolen by malware infecting your computer.</source>
+        <translation>KCK sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše KCK pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Naozaj chcete zašifrovať svoju peňaženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MGN&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY MGN &lt;/ b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KCK&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY KCK &lt;/ b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -240,7 +240,7 @@
     </message>
     <message>
         <source>Enter a KackCoin address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadajte adresu MGN, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
+        <translation>Zadajte adresu KCK, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
     </message>
     <message>
         <source>Address:</source>
@@ -248,7 +248,7 @@
     </message>
     <message>
         <source>The KackCoin address to sign the message with</source>
-        <translation>Adresa MGN, ktorou chcete správu podpísať</translation>
+        <translation>Adresa KCK, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -280,7 +280,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this KackCoin address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto MGN adresy</translation>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto KCK adresy</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -304,11 +304,11 @@
     </message>
     <message>
         <source>The KackCoin address the message was signed with</source>
-        <translation>MGN adresa, ktorou bola správa podpísaná</translation>
+        <translation>KCK adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou MGN adresou</translation>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou KCK adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -603,11 +603,11 @@
     </message>
     <message>
         <source>Send coins to a KackCoin address</source>
-        <translation>Odoslať mince na adresu MGN</translation>
+        <translation>Odoslať mince na adresu KCK</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and MGN: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a MGN: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and KCK: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a KCK: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -626,16 +626,16 @@
         <translation>Zobraziť informácie o KackCoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for MGN</source>
-        <translation>Zmeňte možnosti konfigurácie pre MGN</translation>
+        <source>Modify configuration options for KCK</source>
+        <translation>Zmeňte možnosti konfigurácie pre KCK</translation>
     </message>
     <message>
         <source>Sign messages with your KackCoin addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy MGN, aby ste preukázali, že ich vlastníte</translation>
+        <translation>Podpíšte správy pomocou adresy KCK, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified KackCoin addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými MGN adresami</translation>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými KCK adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a MGN: URI or payment request</source>
-        <translation>Otvorte MGN: URI alebo žiadosť o platbu</translation>
+        <source>Open a KCK: URI or payment request</source>
+        <translation>Otvorte KCK: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,8 +678,8 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the KackCoin Core help message to get a list with possible MGN command-line options</source>
-        <translation>Zobraziť pomocnú správu programu KackCoin Core a získajte zoznam možností príkazového riadka MGN</translation>
+        <source>Show the KackCoin Core help message to get a list with possible KCK command-line options</source>
+        <translation>Zobraziť pomocnú správu programu KackCoin Core a získajte zoznam možností príkazového riadka KCK</translation>
     </message>
     <message>
         <source>KackCoin Core client</source>
@@ -813,8 +813,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (mgn.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (mgn.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (kck.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (kck.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -1094,7 +1094,7 @@ MultiSend: %1</translation>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>The KackCoin address to sign the message with</source>
-        <translation>Adresa MGN, ktorou chcete správu podpísať</translation>
+        <translation>Adresa KCK, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1118,15 +1118,15 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this KackCoin address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto MGN adresy</translation>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto KCK adresy</translation>
     </message>
     <message>
         <source>The KackCoin address the message was signed with</source>
-        <translation>MGN adresa, ktorou bola správa podpísaná</translation>
+        <translation>KCK adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified KackCoin address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou MGN adresou</translation>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou KCK adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1260,7 +1260,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>mgn-core</name>
+    <name>kck-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>
